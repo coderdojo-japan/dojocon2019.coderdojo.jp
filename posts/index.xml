@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on DojoCon Japan 2019 in Nagoya</title>
+    <link>https://dojocon2019.coderdojo.jp/posts/</link>
+    <description>Recent content in Posts on DojoCon Japan 2019 in Nagoya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://dojocon2019.coderdojo.jp/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>スポンサーシップのご案内</title>
+      <link>https://dojocon2019.coderdojo.jp/posts/1/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://dojocon2019.coderdojo.jp/posts/1/</guid>
+      <description>私達、DojoCon Japan 2019実行委員会は、2019年12月21日（土）名城大学 ナゴヤドーム前キャンパス 社会連携ゾーンshakeにて、「Do</description>
+    </item>
+    
+  </channel>
+</rss>
