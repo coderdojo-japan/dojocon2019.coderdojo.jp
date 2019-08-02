@@ -33,7 +33,7 @@
 .bg-outline {
     background: #fffeed;
     background: repeat url(../img/illust/941058.png);
-    background-size:45%;
+    background-size:70%;
 }
 .bg-outline-wrap {
     background: #fffeed;
@@ -49,7 +49,7 @@
 }
 .bg-session-wrap {
     background: repeat url(../img/illust/941058.png);
-    background-size:45%;
+    background-size:70%;
 }
 .bg-session {
     background: #E67928;
@@ -77,23 +77,17 @@
     color: #FFF !important;
 }
 
-/*
-.btn-white2:hover{
-    background:#f0fff0!important;
-    border-color: #f0fff0!important;
-    color: #212529;
-}
-*/
-/*
-.overlay {
-    background: #ffeac5;
-}
-*/
 .project-content-block {
     background: RGB(247,214,190, 0.9) !important;
 }
+
+.bg-workshop-wrap {
+    background: repeat url(../img/illust/941058.png) !important;
+    background-size:70% !important;
+}
 #projects-wrap .overlay {
     background: #ffeac5 !important;
+    opacity: 0.9;
 }
 #sessions .section-heading h1, #sessions .section-heading p {
     color: #FFF !important;
