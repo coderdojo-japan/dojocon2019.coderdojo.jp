@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sessions on DojoCon Japan 2019 in Nagoya</title>
+    <title>Sessions on DojoCon Japan 2019</title>
     <link>https://dojocon2019.coderdojo.jp/sessions/</link>
-    <description>Recent content in Sessions on DojoCon Japan 2019 in Nagoya</description>
+    <description>Recent content in Sessions on DojoCon Japan 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0900</lastBuildDate>
