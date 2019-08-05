@@ -12,7 +12,7 @@
 ------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 991px) {
-    
+
     .main-banner h1.display-4 {
         line-height: 62px;
         font-size: 30px;
@@ -20,13 +20,13 @@
     .main-nav .navbar-brand h4{
         color: #fff;
     }
-    
+
     .top-info-block{
         text-align: center;
         margin: 10px 0px;
         clear: both;
     }
-    
+
     .icon-block{
         margin-right: 0px;
         margin-bottom: 10px;
@@ -34,27 +34,27 @@
     .main-navigation{
         margin-top: 20px;
     }
-    
+
     .main-nav .navbar-brand h4{
         color: #fff;
     }
-    
+
     .section-title {
         font-size: 22px;
     }
-    
+
     .feature-block{
         margin-bottom: 80px;
     }
-    
+
     .service-img{
         margin-bottom: 0px;
     }
-    
+
     .service-content {
         padding-bottom: 70px;
     }
-    
+
     .process-block, .pricing-block{
         margin-bottom: 40px;
     }
@@ -73,7 +73,7 @@
     .project-content-block h4 {
         font-size: 14px;
     }
-   
+
     .blog-box {
         margin-bottom: 50px;
     }
@@ -83,26 +83,26 @@
     .footer-copy:before{
         display: none;
     }
-   
+
     .banner-content p{
         padding-right: 0px;
     }
-    
+
     .pricing-box{
         margin-top: 30px;
     }
-    
+
     .main-navigation.menu-2 {
         margin-top: 20px;
         position: absolute;
         width: 100%;
     }
-    
+
     .top-info-block{
         margin: 0px 20px;
         text-align: left;
     }
-    
+
     .top-info-block .icon-block {
         margin-right: 10px;
     }
@@ -128,17 +128,17 @@
 -----------------------------------*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    
+
     .display-4 {
         font-size: 2.5rem;
     }
-    
+
     .top-info-block{
         text-align: center;
         margin: 10px 0px;
         clear: both;
     }
-    
+
     .icon-block{
         margin-right: 0px;
         margin-bottom: 10px;
@@ -146,31 +146,31 @@
     .main-navigation{
         margin-top: 20px;
     }
-    
+
     .main-nav .navbar-brand h4{
         color: #fff;
     }
-    
+
     .section-title {
         font-size: 22px;
     }
-    
+
     .feature-block{
         margin-bottom: 80px;
     }
-    
+
     .service-img{
         margin-bottom: 0px;
     }
-    
+
     .service-content {
         padding-bottom: 70px;
     }
-    
+
     .process-block, .pricing-block{
         margin-bottom: 40px;
     }
-    
+
     .pricing-block.zoom-in{
         -webkit-transform: none;
         -ms-transform:none ;
@@ -191,7 +191,7 @@
     .project-content-block h4 {
         font-size: 14px;
     }
-    
+
     .testimonial-heading{
         margin-bottom: 50px;
     }
@@ -204,16 +204,16 @@
     .footer-copy:before{
         display: none;
     }
-   
+
     .banner-content p{
         padding-right: 0px;
     }
-    
+
     .pricing-box{
         margin-top: 30px;
     }
-    
-    
+
+
     .main-navigation.menu-2 {
         margin-top: 20px;
         position: absolute;
@@ -233,7 +233,7 @@
     }
     .navbar-collapse.collapse.show{
         padding-bottom: 30px;
-        background: #21c87a;
+        background: #E67928;
     }
 
     #map{
@@ -246,7 +246,7 @@
     #work-wrap p.lead{
         margin-bottom: 40px;
     }
-    
+
 }
 
 /* Extra Small Devices, Phones */
@@ -257,47 +257,47 @@
     }
     .navbar-collapse.collapse.show{
         padding-bottom: 30px;
-        background: #21c87a;
+        background: #E67928;
     }
     .top-info-block{
         text-align: center;
         margin: 10px 0px;
         clear: both;
     }
-    
+
     .icon-block{
         margin-right: 0px;
         margin-bottom: 10px;
     }
-    
+
     .main-navigation{
         margin-top: 20px;
     }
-    
+
     .main-nav .navbar-brand h4{
         color: #fff;
     }
-    
+
     .section-title {
         font-size: 22px;
     }
-    
+
     .feature-block{
         margin-bottom: 80px;
     }
-    
+
     .service-img{
         margin-bottom: 0px;
     }
-    
+
     .service-content {
         padding-bottom: 70px;
     }
-    
+
     .process-block, .pricing-block{
         margin-bottom: 40px;
     }
-    
+
     .pricing-block.zoom-in{
         -webkit-transform: none;
         -ms-transform:none ;
@@ -317,7 +317,7 @@
     .project-content-block h4 {
         font-size: 14px;
     }
-    
+
     .testimonial-heading{
         margin-bottom: 50px;
     }
@@ -335,48 +335,48 @@
         padding: 50px 0px;
         position: relative;
     }
-    
+
     .about-block{
         margin-top: 30px;
     }
-    
+
     .banner-content p{
         padding-right: 0px;
     }
     .pricing-box{
         margin-top: 30px;
     }
-    
+
     .main-navigation.menu-2 {
         margin-top: 20px;
         position: absolute;
         width: 100%;
     }
-    
-    
+
+
     .banner-content p{
         padding-right: 0px;
     }
-    
+
     .pricing-box{
         margin-top: 30px;
     }
-    
-    
+
+
     .main-navigation.menu-2 {
         margin-top: 20px;
         position: absolute;
         width: 100%;
     }
-    
+
     .banner-contact-form{
         padding: 45px 15px;
     }
-    
+
     .web-service-block{
         margin-bottom: 30px;
     }
-    
+
 
     .img-icon-block:before {
         right: auto;
@@ -406,34 +406,34 @@
         margin-bottom: 40px;
     }
 }
-   
 
-/* Custom, iPhone Retina */ 
+
+/* Custom, iPhone Retina */
 @media (min-width : 320px) and (max-width: 478px)  {
     .bg-light{
         background: transparent!important;
     }
-    
+
     .top-info-block{
         text-align: center;
         margin: 10px 0px;
         clear: both;
     }
-    
+
     .icon-block{
         margin-right: 0px;
         margin-bottom: 10px;
     }
-    
+
     .main-navigation{
         margin-top: 20px;
     }
-    
+
     .main-nav .navbar-brand h4{
         color: #fff;
         margin-top: 10px;
     }
-    
+
     .section-title {
         font-size: 22px;
     }
@@ -443,19 +443,19 @@
     .feature-block{
         margin-bottom: 80px;
     }
-    
+
     .service-img{
         margin-bottom: 0px;
     }
-    
+
     .service-content {
         padding-bottom: 70px;
     }
-    
+
     .process-block, .pricing-block{
         margin-bottom: 40px;
     }
-    
+
     .pricing-block.zoom-in{
         -webkit-transform: none;
         -ms-transform:none ;
@@ -473,11 +473,11 @@
         bottom: 0px;
         margin-top: 30px;
     }
-    
+
     .project-content-block h4 {
         font-size: 14px;
     }
-    
+
     .testimonial-heading{
         margin-bottom: 50px;
     }
@@ -490,8 +490,8 @@
     .footer-copy:before{
         display: none;
     }
-    
-    
+
+
     .about-block{
         margin-top: 30px;
     }
@@ -504,50 +504,50 @@
     .banner-content p{
         padding-right: 0px;
     }
-    
+
     .pricing-box{
         margin-top: 30px;
     }
-    
-    
+
+
     .main-navigation.menu-2 {
         margin-top: 20px;
         position: absolute;
         width: 100%;
     }
-    
+
     .navbar-collapse.collapse.show{
         padding-bottom: 30px;
-        background: #21c87a;
+        background: #E67928;
     }
-    
+
     .web-service-block{
         margin-bottom: 30px;
     }
-    
-    
+
+
     .section{
         padding: 60px 0px;
     }
-    
+
     .section-bottom{
-        padding-bottom: 60px;    
+        padding-bottom: 60px;
     }
     .section-top{
-        padding-top: 60px;    
+        padding-top: 60px;
     }
-    
-  
-    
+
+
+
     .main-banner h1.display-4 {
         line-height: 42px;
         font-size: 30px;
     }
-    
+
     #projects {
         margin-top: 60px;
     }
-    
+
     .img-icon-block:before {
         right: auto;
     }
