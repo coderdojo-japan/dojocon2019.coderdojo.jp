@@ -56,6 +56,16 @@ layout: default
 </section>
 <section id="staff">
   <h2>スタッフ</h2>
+  {% for staff in site.data.staff %}
+  <div class="staff">
+    <div class="staff-image">
+      {% if staff.img %}<img src="/img/staff/{{staff.img}}" alt="{{staff.name}}">
+      {% else %}<img src="/img/staff/dummy.jpg" alt="{{staff.name}}">
+      {% endif %}
+    </div>
+    <a href="{{staff.site}}">{{staff.name}}</a>
+  </div>
+  {% endfor %}
 </section>
 <section id="sponsors">
   <h2>スポンサー</h2>
