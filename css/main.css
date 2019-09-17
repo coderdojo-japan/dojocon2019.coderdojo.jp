@@ -1,0 +1,9 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+section{
+  margin: auto;
+  width: 80vw;
+  max-width: 700px;
+}
