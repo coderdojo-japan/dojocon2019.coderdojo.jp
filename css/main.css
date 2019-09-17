@@ -7,3 +7,20 @@ section{
   width: 80vw;
   max-width: 700px;
 }
+
+.outline-one{
+  margin: 12px;
+  text-align: left;
+}
+.outline-one > *{
+  display: inline-block;
+  margin: 0;
+}
+.outline-one h3{
+  background-color: #000;
+  color: #fff;
+  margin-right: 12px;
+  padding: 4px 12px;
+  text-align: center;
+  width: 5em;
+}
