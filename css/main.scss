@@ -1,6 +1,9 @@
 ---
 ---
-
+a{
+  text-decoration: none;
+  color: inherit;
+}
 body{
   margin: 0;
   text-align: center;
@@ -9,6 +12,20 @@ section{
   margin: auto;
   width: 80vw;
   max-width: 700px;
+}
+
+
+footer{
+  background-color: #888;
+  color: #fff;
+  padding: 12px 0;
+}
+.footer-menu-list{
+  list-style: none;
+  padding: 0;
+  li{
+    display: inline;
+  }
 }
 
 .outline-one{
