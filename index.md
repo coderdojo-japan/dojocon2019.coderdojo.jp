@@ -38,12 +38,21 @@ layout: default
 </section>
 <section id="news">
   <h2>ニュース</h2>
+  {% for post in site.categories.news %}
+    {% include articles.html class='news' %}
+  {% endfor %}
 </section>
 <section id="workshops">
   <h2>ワークショップ</h2>
+  {% for post in site.categories.workshop %}
+    {% include articles.html class='event' %}
+  {% endfor %}
 </section>
 <section id="sessions">
   <h2>セッション</h2>
+  {% for post in site.categories.session %}
+    {% include articles.html class='event' %}
+  {% endfor %}
 </section>
 <section id="staff">
   <h2>スタッフ</h2>
