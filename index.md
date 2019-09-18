@@ -58,12 +58,13 @@ layout: default
   <h2>スタッフ</h2>
   {% for staff in site.data.staff %}
   <div class="staff">
+    <a href="{{staff.site}}" target="_blank">
     <div class="staff-image">
       {% if staff.img %}<img src="/img/staff/{{staff.img}}" alt="{{staff.name}}">
       {% else %}<img src="/img/staff/dummy.jpg" alt="{{staff.name}}">
       {% endif %}
     </div>
-    <a href="{{staff.site}}">{{staff.name}}</a>
+    <p>{{staff.name}}</p></a>
   </div>
   {% endfor %}
 </section>
