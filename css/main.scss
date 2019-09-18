@@ -9,6 +9,9 @@ body{
   margin: 0;
   text-align: center;
 }
+header{
+  padding-bottom: 48px;
+}
 section{
   margin: auto;
   width: 80vw;
@@ -26,6 +29,73 @@ footer{
   padding: 0;
   li{
     display: inline;
+  }
+}
+
+.menu{
+  background-color: $main-color;
+  height: 48px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  input{
+    display: none;
+  }
+}
+.menu-hamburger{
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 6px;
+  right: 12px;
+  .fa-times{
+    display: none;
+  }
+  i{
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+.menu-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li{
+    color: #fff;
+    display: inline;
+    font-weight: bold;
+    line-height:48px;
+  }
+  li:not(:last-child){
+    margin-right: 24px;
+  }
+}
+@media screen and (max-width: 1000px){
+  .menu-list{
+    background-color:rgba(255, 255, 255, 0.8);
+    display: none;
+    height: 100vh;
+    li{
+      color: inherit;
+      display: block;
+      margin: 0 !important;
+    }
+  }
+  .menu-hamburger{
+    display: block;
+  }
+}
+#menu-check:checked {
+  ~ .menu-list{
+    display: block;
+  }
+  ~ .menu-hamburger .fa-times{
+    display: block;
+  }
+  ~ .menu-hamburger .fa-bars{
+    display: none;
   }
 }
 
