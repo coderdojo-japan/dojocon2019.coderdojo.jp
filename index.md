@@ -70,6 +70,41 @@ layout: default
 </section>
 <section id="sponsors">
   <h2>スポンサー</h2>
+  <!-- /_data/sponsors.ymlからランクごとに読み込んで表示している。もっとスマートになるはず… -->
+  <h3>Gold Sponsor</h3>
+  <div class="sponsors-rank">
+    {% for sponsor in site.data.sponsors.gold %}
+    <a href="{{sponsor.site}}" target="_blank">
+    <img src="/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-gold">
+    </a>
+    {% endfor %}
+  </div>
+
+  <h3>Silver Sponsor</h3>
+  <div class="sponsors-rank">
+    {% for sponsor in site.data.sponsors.silver %}
+    <a href="{{sponsor.site}}" target="_blank">
+    <img src="/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-silver">
+    </a>
+    {% endfor %}
+  </div>
+
+  <h3>Bronze Sponsor</h3>
+  <div class="sponsors-rank">
+    {% for sponsor in site.data.sponsors.bronze %}
+    <a href="{{sponsor.site}}" target="_blank">
+    <img src="/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-bronze">
+    </a>
+    {% endfor %}
+  </div>
+  <h3>In-kind Sponsors</h3>
+  <div class="sponsors-rank">
+    {% for sponsor in site.data.sponsors.in-kind %}
+    <a href="{{sponsor.site}}" target="_blank">
+    <img src="/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-in-kind">
+    </a>
+    {% endfor %}
+  </div>
 </section>
 <section id="contact">
   <h2>お問い合わせ</h2>

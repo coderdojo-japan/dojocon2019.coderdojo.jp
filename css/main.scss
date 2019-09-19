@@ -119,6 +119,28 @@ footer{
   }
 }
 
+.sponsors-rank{
+  text-align: left;
+  letter-spacing: -1em;
+  img{
+    display: inline;
+    vertical-align: middle;
+  }
+}
+
+.sponsor-gold{
+  padding: 4vw;
+  width: calc(100% - 8vw);
+}
+.sponsor-silver{
+  padding: 2vw;
+  width: calc(50% - 4vw);
+}
+.sponsor-bronze, .sponsor-in-kind{
+  padding: 1vw;
+  width: calc(20% - 2vw);
+}
+
 .staff{
   float: left;
   padding: 1.5vw;

@@ -1,0 +1,23 @@
+gold:
+  - name: 株式会社ソニックガーデン
+    img: sonicgarden.png
+    site: https://www.sonicgarden.jp/
+
+silver:
+  - name: 株式会社ドットインストール
+    img: dotinstall.svg
+    site: https://dotinstall.com/
+
+bronze:
+  - name: 株式会社ＩＴアドバイザー (アイティアドバイザー)
+    img: itadvisor.png
+    site: http://it-a-net.co.jp/
+
+in-kind:
+  - name: YassLab 株式会社
+    img: yasslab.png
+    site: https://yasslab.jp/
+
+  - name: 株式会社RALLY
+    img: rally.png
+    site: https://rallyapp.jp/
