@@ -108,7 +108,7 @@ layout: default
 </section>
 <section id="contact">
   <h2>お問い合わせ</h2>
-  <a href="mailto:{{ site.email }}">メールで問い合わせる</a>
+  <a href="/" class="button">フォームを開く</a>
 </section>
 <section id="sns">
   <h2>SNS</h2>
