@@ -20,4 +20,20 @@ layout: default
 <div class='post-content'>
   {{ content }}
 </div>
+{% if page.categories[0] == "session" %}
+<h2>スピーカー</h2>
+  <div class="speakers">
+    {% for speaker in page.speakers %}
+    <!--{{ site.data.speaker | where: "name", speaker }}-->
+    {% assign speaker_data = site.data.speaker | where: "name", speaker %}
+      <div class="speaker">
+        {% for one_speaker in speaker_data %}
+        <img src="/img/speaker/{{one_speaker.img}}" alt="{{one_speaker.name}}">
+        <a href="{{site.url}}/speaker/{{one_speaker.id}}">{{ one_speaker.name }}</a>
+        <p>{{one_speaker.description | truncate: 103 }}</p>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
 </div>
