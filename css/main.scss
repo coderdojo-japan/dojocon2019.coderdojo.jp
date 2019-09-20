@@ -11,7 +11,7 @@ body{
 header{
   padding-bottom: 48px;
 }
-section{
+section, .post{
   margin: auto;
   width: 80vw;
   max-width: 700px;
@@ -150,6 +150,31 @@ footer{
     padding: 4px 12px;
     text-align: center;
     width: 5em;
+  }
+}
+
+.post{
+  text-align: left;
+  letter-spacing: .08em;
+  line-height: 1.8em;
+  h1{
+    font-weight: 500;
+    text-align: center;
+  }
+  .post-date{
+    text-align: center;
+  }
+}
+.post-content{
+  padding: 24px 0;
+}
+.post-head{
+  background-color: $main-color;
+  color:#fff;
+  margin-bottom: 60px;
+  padding: 48px 0;
+  h2{
+    margin: 0;
   }
 }
 
