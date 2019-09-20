@@ -15,6 +15,34 @@ section{
   margin: auto;
   width: 80vw;
   max-width: 700px;
+  clear: both;
+}
+
+.article{
+  float: left;
+  margin-bottom: 24px;
+  text-align: left;
+  a{
+    text-decoration: none;
+  }
+}
+.article-date{
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.article-event{
+  padding: 1vw;
+  width: calc(50% - 2vw);
+}
+.article-news{
+  padding: 1vw;
+  width: calc(33% - 2vw);
+}
+.article-thumbnail{
+  width: 100%;
+}
+.article-title{
+  margin-top: 4px;
 }
 
 .button{
