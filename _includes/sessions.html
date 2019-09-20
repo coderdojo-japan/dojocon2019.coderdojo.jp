@@ -1,0 +1,16 @@
+<article class="article article-event">
+  <div class="session-tag">
+    {{post.tags[0]}}
+  </div>
+  <img src="/img/{{post.thumbnail}}" alt="thumbnail of {{ post.title }}" class="article-thumbnail">
+  <h3 class="article-title">{{ post.title }}</h3>
+  <p>
+    {% for speaker in post.speakers %}
+    {{speaker}}<br>
+    {%endfor%}
+  </p>
+  <p>{{post.time}}</p>
+  <a href="{{ site.url }}{{ post.url }}" class="button">
+    MORE
+  </a>
+</article>
