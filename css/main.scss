@@ -48,8 +48,12 @@ section, .post{
 .button{
   border: solid $main-color 4px;
   border-radius: 30px;
+  display: block;
+  margin: auto;
   padding: 8px 36px;
+  text-align: center;
   text-decoration: none;
+  width: 30%;
 }
 
 footer{
@@ -236,4 +240,25 @@ footer{
 .staff:hover p{
   font-weight: bold;
   transition: .3s;
+}
+
+.tags{
+  text-align: center;
+}
+.tag-workshop{
+  background: linear-gradient(transparent 70%, $light-blue 70%);
+}
+.session-tag{
+  background-color: $light-gray;
+  margin-bottom: 8px;
+  padding: 12px;
+  text-align: center;
+}
+.tag-post{
+  background-color: $light-gray;
+  border-radius: 1em;
+  padding: 4px 24px;
+  &:not(:last-child){
+    margin-right: 12px;
+  }
 }
