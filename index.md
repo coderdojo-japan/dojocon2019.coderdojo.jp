@@ -113,7 +113,7 @@ layout: default
 </section>
 <section id="contact">
   <h2>お問い合わせ</h2>
-  <a href="/" class="button">フォームを開く</a>
+  <a href="https://docs.google.com/forms/d/1dwufJyrm-4EiGZOz0iFOU7Xgg16g9QbTbP3J1Quepag" class="button">フォームを開く</a>
 </section>
 <section id="sns">
   <h2>SNS</h2>
