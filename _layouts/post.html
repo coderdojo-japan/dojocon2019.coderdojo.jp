@@ -29,8 +29,8 @@ layout: default
       <div class="speaker">
         {% for one_speaker in speaker_data %}
         <img src="/img/speaker/{{one_speaker.img}}" alt="{{one_speaker.name}}">
-        <a href="{{site.url}}/speaker/{{one_speaker.id}}">{{ one_speaker.name }}</a>
-        <p>{{one_speaker.description | truncate: 103 }}</p>
+        <a href="{{one_speaker.site}}">{{ one_speaker.name }}</a>
+        <p>{{one_speaker.description }}</p>
         {% endfor %}
       </div>
     {% endfor %}
