@@ -11,6 +11,7 @@ speakers: #セッションの場合のみ設定。以下のように設定しま
     - Taro Ninja
     - ねこちゃん
 time:  15:00-16:00 #セッションの場合のみ設定。
+permalink: /posts/1 #記事のurlを設定できる。すでにURL公開済みの記事を掲載する場合に設定必須。 未設定の場合は/:categories/:title.html になる。(例: /sessions/dojo-hopping.html)
 ---
 
 セッション内容を記述。マークダウン記法で書けます。設定を囲っているハイフン3つを忘れないでくださいね＞＜

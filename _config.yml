@@ -32,6 +32,13 @@ plugins:
 sass:
     sass_dir: _sass
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /:categories/:title.html
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
