@@ -34,13 +34,20 @@ section, .post{
 .article-event{
   padding: 1vw;
   width: calc(50% - 2vw);
+  .article-thumbnail{
+    height: calc( ((80vw / 2) - 2vw) * (400 / 600));
+  }
 }
 .article-news{
   padding: 1vw;
   width: calc(33% - 2vw);
+  .article-thumbnail{
+    height: calc( ((80vw / 3) - 2vw) * (400 / 600));
+  }
 }
 .article-thumbnail{
   width: 100%;
+  object-fit: cover;
 }
 .article-title{
   margin-top: 4px;
@@ -287,4 +294,9 @@ footer{
   &:not(:last-child){
     margin-right: 12px;
   }
+}
+
+.thumbnail{
+  margin: 0 10%;
+  width: 80%;
 }
