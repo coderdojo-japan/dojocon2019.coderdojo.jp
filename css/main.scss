@@ -14,12 +14,11 @@ header{
   padding-bottom: 48px;
 }
 section, .post{
-  margin: auto;
+  margin: 48px auto;
   width: 80vw;
-  max-width: 700px;
+  max-width: 1000px;
   clear: both;
 }
-
 .article{
   float: left;
   margin-bottom: 24px;
@@ -102,7 +101,7 @@ footer{
   margin: auto;
   padding: 0;
   width: 80vw;
-  max-width: 700px;
+  max-width: 1000px;
   > li{
     color: #fff;
     float: left;
@@ -122,7 +121,7 @@ footer{
     background-color:rgba(255, 255, 255, 0.8);
     display: none;
     height: 100vh;
-    li{
+    > li{
       color: inherit;
       display: block;
       margin: 0 !important;
@@ -175,6 +174,7 @@ footer{
 }
 
 .post{
+  margin-bottom: 12vh;
   text-align: left;
   h1{
     font-weight: 500;
@@ -219,8 +219,9 @@ footer{
 }
 
 .sponsors-rank{
-  text-align: left;
   letter-spacing: -1em;
+  margin-bottom: 48px;
+  text-align: left;
   img{
     display: inline;
     vertical-align: middle;
