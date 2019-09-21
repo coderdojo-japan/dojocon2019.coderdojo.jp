@@ -99,15 +99,17 @@ footer{
 }
 .menu-list{
   list-style: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
-  li{
+  width: 80vw;
+  max-width: 700px;
+  > li{
     color: #fff;
-    display: inline;
+    float: left;
     font-weight: bold;
     line-height:48px;
   }
-  li:not(:last-child){
+  > li:not(:last-child){
     margin-right: 24px;
   }
   li a{
@@ -141,6 +143,19 @@ footer{
     display: none;
   }
 }
+.menu-second{
+  background-color: $light-gray;
+  color: #000;
+  display: none;
+  list-style: none;
+  padding: 12px 24px;
+  position: fixed;
+  text-align: left;
+}
+.menu-first:hover > .menu-second{
+  display: block;
+}
+
 
 .outline-one{
   margin: 12px;
