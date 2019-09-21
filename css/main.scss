@@ -116,16 +116,39 @@ footer{
     color: inherit;
   }
 }
+
+.menu-second{
+  background-color: $light-gray;
+  color: #000;
+  display: none;
+  list-style: none;
+  padding: 12px 24px;
+  position: fixed;
+  text-align: left;
+}
+.menu-first:hover > .menu-second{
+  display: block;
+}
+
 @media screen and (max-width: 1000px){
   .menu-list{
     background-color:rgba(255, 255, 255, 0.8);
     display: none;
     height: 100vh;
+    overflow-y: scroll;
+    width: 100vw;
     > li{
       color: inherit;
       display: block;
+      float: none;
       margin: 0 !important;
     }
+  }
+  .menu-second{
+    background-color: inherit;
+    display: block;
+    position: static;
+    text-align: center;
   }
   .menu-hamburger{
     display: block;
@@ -142,19 +165,6 @@ footer{
     display: none;
   }
 }
-.menu-second{
-  background-color: $light-gray;
-  color: #000;
-  display: none;
-  list-style: none;
-  padding: 12px 24px;
-  position: fixed;
-  text-align: left;
-}
-.menu-first:hover > .menu-second{
-  display: block;
-}
-
 
 .outline-one{
   margin: 12px;
