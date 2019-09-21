@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "GO GLOBAL! プログラミングコンテスト"
+categories: contest
 ---
-# GO GLOBAL! プログラミングコンテスト
 
 
 
