@@ -65,8 +65,8 @@ layout: default
   <div class="staff">
     <a href="{{staff.site}}" target="_blank">
     <div class="staff-image">
-      {% if staff.img %}<img src="/img/staff/{{staff.img}}" alt="{{staff.name}}">
-      {% else %}<img src="/img/staff/dummy.jpg" alt="{{staff.name}}">
+      {% if staff.img %}<img src="{{site.url}}/img/staff/{{staff.img}}" alt="{{staff.name}}">
+      {% else %}<img src="{{site.url}}/img/staff/dummy.jpg" alt="{{staff.name}}">
       {% endif %}
     </div>
     <p>{{staff.name}}</p></a>
@@ -80,7 +80,7 @@ layout: default
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.gold %}
     <a href="{{sponsor.site}}" target="_blank">
-    <img src="/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-gold">
+    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-gold">
     </a>
     {% endfor %}
   </div>
@@ -89,7 +89,7 @@ layout: default
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.silver %}
     <a href="{{sponsor.site}}" target="_blank">
-    <img src="/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-silver">
+    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-silver">
     </a>
     {% endfor %}
   </div>
@@ -98,7 +98,7 @@ layout: default
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.bronze %}
     <a href="{{sponsor.site}}" target="_blank">
-    <img src="/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-bronze">
+    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-bronze">
     </a>
     {% endfor %}
   </div>
@@ -106,7 +106,7 @@ layout: default
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.in-kind %}
     <a href="{{sponsor.site}}" target="_blank">
-    <img src="/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-in-kind">
+    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-in-kind">
     </a>
     {% endfor %}
   </div>
@@ -115,9 +115,9 @@ layout: default
   <h2>お問い合わせ</h2>
   <a href="https://docs.google.com/forms/d/1dwufJyrm-4EiGZOz0iFOU7Xgg16g9QbTbP3J1Quepag" class="button">フォームを開く</a>
 </section>
-<section id="sns">
+<!--<section id="sns">
   <h2>SNS</h2>
-</section>
+</section>-->
 <section id="coderdojo-foundation">
   <h2>後援</h2>
   <div class="text">
