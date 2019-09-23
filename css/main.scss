@@ -55,7 +55,7 @@ section, .post{
 }
 
 .background-ninja{
-  background: url("/img/background.jpg");
+  background: url("{{site.url}}/img/background.jpg");
   background-size:80vh auto;
   padding: 24px;
 }
