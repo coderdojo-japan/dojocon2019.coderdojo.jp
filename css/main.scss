@@ -18,6 +18,7 @@ section, .post{
   width: 80vw;
   max-width: 1000px;
   clear: both;
+  overflow:hidden;
 }
 .article{
   float: left;
@@ -51,6 +52,12 @@ section, .post{
 }
 .article-title{
   margin-top: 4px;
+}
+
+.background-ninja{
+  background: url("/img/background.jpg");
+  background-size:80vh auto;
+  padding: 24px;
 }
 
 .button{

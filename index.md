@@ -12,6 +12,7 @@ layout: default
     <p>2011年にアイルランドから始まった、子ども達にプログラミングを学ぶ場を提供するボランティア主導の非営利活動です。この活動では、ボランティアの大人たちと学びたい子どもたちとで作る場をDojoと呼んでいます。CoderDojoの輪は世界100カ国、1800カ所以上に広がり、ここ日本では185カ所以上のDojoで毎年1,000回以上 (*1) 開催されています。<br>*1 統計情報: https://coderdojo.jp/stats</p>
   </div>
 </section>
+<div class="background-ninja">
 <section id="outline">
   <h2>開催概要</h2>
   <div class="outline-one">
@@ -32,6 +33,7 @@ layout: default
   </div>
   <p>※参加には事前の申し込みが必要となります。</p>
 </section>
+</div>
 <section id="access">
   <h2>アクセス</h2>
   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3260.69697362165!2d136.9440337!3d35.1891045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003119bbc4c9fc5%3A0xd5c643a8df7fc59!2z5ZCN5Z-O5aSn5a2mIOODiuOCtOODpOODieODvOODoOWJjeOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sus!4v1568871387623!5m2!1sja!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -41,24 +43,28 @@ layout: default
     <p>JR中央本線・名鉄瀬戸線「大曽根」駅下車 徒歩約10分。地下鉄名城線 「ナゴヤドーム前矢田」駅下車2番出口 徒歩約3分。ゆとりーとライン「ナゴヤドーム前矢田」駅から徒歩約5分</p>
   </div>
 </section>
+<div class="background-ninja">
 <section id="news">
   <h2>ニュース</h2>
   {% for post in site.categories.news %}
     {% include articles.html %}
   {% endfor %}
 </section>
+</div>
 <section id="workshops">
   <h2>ワークショップ</h2>
   {% for post in site.categories.workshop %}
     {% include workshops.html %}
   {% endfor %}
 </section>
+<div class="background-ninja">
 <section id="sessions">
   <h2>セッション</h2>
   {% for post in site.categories.session %}
     {% include sessions.html %}
   {% endfor %}
 </section>
+</div>
 <section id="staff">
   <h2>スタッフ</h2>
   {% for staff in site.data.staff %}
@@ -111,10 +117,12 @@ layout: default
     {% endfor %}
   </div>
 </section>
+<div class="background-ninja">
 <section id="contact">
   <h2>お問い合わせ</h2>
   <a href="https://docs.google.com/forms/d/1dwufJyrm-4EiGZOz0iFOU7Xgg16g9QbTbP3J1Quepag" class="button">フォームを開く</a>
 </section>
+</div>
 <!--<section id="sns">
   <h2>SNS</h2>
 </section>-->
