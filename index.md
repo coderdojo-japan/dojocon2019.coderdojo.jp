@@ -53,6 +53,9 @@ layout: default
 </div>
 <section id="workshops">
   <h2>ワークショップ</h2>
+  <div class="img-section">
+    <img src="{{site.url}}/img/" alt=""> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
+  </div>
   {% for post in site.categories.workshop %}
     {% include workshops.html %}
   {% endfor %}
@@ -60,6 +63,9 @@ layout: default
 <div class="background-ninja">
 <section id="sessions">
   <h2>セッション</h2>
+  <div class="img-section">
+    <img src="{{site.url}}/img/" alt=""> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
+  </div>
   {% for post in site.categories.session %}
     {% include sessions.html %}
   {% endfor %}
