@@ -15,23 +15,25 @@ layout: default
 <div class="background-ninja">
 <section id="outline">
   <h2>開催概要</h2>
-  <div class="outline-one">
-    <h3>開催日</h3>
-    <p>2019年12月21日（土）</p>
+  <div class="text">
+    <div class="outline-one">
+      <h3>開催日</h3>
+      <p>2019年12月21日（土）</p>
+    </div>
+    <div class="outline-one">
+      <h3>時間</h3>
+      <p>10:30-17:30（開場10:00）※予定</p>
+    </div>
+    <div class="outline-one">
+      <h3>場所</h3>
+      <p>名城大学 ナゴヤドーム前キャンパス社会連携ゾーンshake</p>
+    </div>
+    <div class="outline-one">
+      <h3>参加費</h3>
+      <p>無料</p>
+    </div>
+    <p>※参加には事前の申し込みが必要となります。</p>
   </div>
-  <div class="outline-one">
-    <h3>時間</h3>
-    <p>10:30-17:30（開場10:00）※予定</p>
-  </div>
-  <div class="outline-one">
-    <h3>場所</h3>
-    <p>名城大学 ナゴヤドーム前キャンパス社会連携ゾーンshake</p>
-  </div>
-  <div class="outline-one">
-    <h3>参加費</h3>
-    <p>無料</p>
-  </div>
-  <p>※参加には事前の申し込みが必要となります。</p>
 </section>
 </div>
 <section id="access">

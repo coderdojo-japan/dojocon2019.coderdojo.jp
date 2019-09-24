@@ -316,7 +316,17 @@ footer{
   }
 }
 
+.text{
+  margin: auto;
+  width: 80%;
+}
 .thumbnail{
   margin: 0 10%;
   width: 80%;
+}
+
+@media screen and (max-width: 1000px){
+  .text{
+    width: 100%;
+  }
 }
