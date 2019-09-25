@@ -87,7 +87,9 @@ footer{
 .img-section{
   margin-bottom: 36px;
   img{
-    height: 24vw;
+    border-radius: 4px;
+    height: 32vw;
+    object-fit: cover;
     width: 100%;
   }
 }
