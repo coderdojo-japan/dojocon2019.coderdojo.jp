@@ -9,7 +9,7 @@ layout: default
 </section>
 <img src="/img/background.png" class="top-background">
 <section id="about">
-  <h2>DojoCon Japan 2019 について</h2>
+  <h2>DojoCon Japan 2019</h2>
   <div class="text">
     <h3>日本最大のCoderDojoの祭典</h3>
     <p>DojoCon Japan は日本のCoderDojoの主催者やメンター、プログラミングを学ぶ子ども達とその活動に賛同・協賛する人が全国各地から集まる大きなイベントです。2016年～2017年は大阪、2018年は東京で開催されました。本年は名古屋で4回目の開催を行います。今年のDojoConのテーマは「つぎのSTEP」です。全国のDojoの新たな取り組みが共有されることで、各地のDojoが新たな活動の手掛かりを見つけ、今後のDojoがさらに発展することを目的としています。</p>
@@ -21,7 +21,8 @@ layout: default
 </section>
 <div class="background-ninja">
 <section id="outline">
-  <h2>開催概要</h2>
+  <h2>ABOUT</h2>
+  <p class="caption">開催概要</p>
   <div class="text">
     <div class="outline-one">
       <h3>開催日</h3>
@@ -44,7 +45,8 @@ layout: default
 </section>
 </div>
 <section id="access">
-  <h2>アクセス</h2>
+  <h2>ACCESS</h2>
+  <p class="caption">会場の場所</p>
   <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3260.69697362165!2d136.9440337!3d35.1891045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003119bbc4c9fc5%3A0xd5c643a8df7fc59!2z5ZCN5Z-O5aSn5a2mIOODiuOCtOODpOODieODvOODoOWJjeOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sus!4v1568871387623!5m2!1sja!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
   <div class="text">
     <h3>名城大学 ナゴヤドーム前キャンパス 社会連携ゾーンshake</h3>
@@ -54,14 +56,16 @@ layout: default
 </section>
 <div class="background-ninja">
 <section id="news">
-  <h2>ニュース</h2>
+  <h2>NEWS</h2>
+  <p class="caption">お知らせ</p>
   {% for post in site.categories.news %}
     {% include articles.html %}
   {% endfor %}
 </section>
 </div>
 <section id="workshops">
-  <h2>ワークショップ</h2>
+  <h2>WORKSHOP</h2>
+  <p class="caption">ワークショップ</p>
   <div class="img-section">
     <img src="{{site.url}}/img/workshop.jpg" alt=""> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
   </div>
@@ -71,7 +75,8 @@ layout: default
 </section>
 <div class="background-ninja">
 <section id="sessions">
-  <h2>セッション</h2>
+  <h2>SESSION</h2>
+  <p class="caption">セッション</p>
   <div class="img-section">
     <img src="{{site.url}}/img/session.jpg" alt=""> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
   </div>
@@ -81,7 +86,8 @@ layout: default
 </section>
 </div>
 <section id="staff">
-  <h2>スタッフ</h2>
+  <h2>STAFF</h2>
+  <p class="caption">スタッフたち</p>
   {% for staff in site.data.staff %}
   <div class="staff">
     <a href="{{staff.site}}" target="_blank">
@@ -95,7 +101,8 @@ layout: default
   {% endfor %}
 </section>
 <section id="sponsors">
-  <h2>スポンサー</h2>
+  <h2>SPONSORS</h2>
+  <p class="caption">スポンサーさま</p>
   <!-- /_data/sponsors.ymlからランクごとに読み込んで表示している。もっとスマートになるはず… -->
   <h3>Gold Sponsor</h3>
   <div class="sponsors-rank">
@@ -134,7 +141,8 @@ layout: default
 </section>
 <div class="background-ninja">
 <section id="contact">
-  <h2>お問い合わせ</h2>
+  <h2>CONTACT</h2>
+  <p class="caption">お問い合わせ</p>
   <a href="https://docs.google.com/forms/d/1dwufJyrm-4EiGZOz0iFOU7Xgg16g9QbTbP3J1Quepag" class="button">フォームを開く</a>
 </section>
 </div>
