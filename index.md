@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+<section class="top">
+  <img src="{{site.url}}/img/dojocon_brown_oneline.png" alt="DojoConJapan2019" class="top-title-big top-title">
+  <img src="{{site.url}}/img/dojocon_brown.png" alt="DojoConJapan2019" class="top-title-small top-title">
+  <img src="{{site.url}}/img/cloud.png" class="top-cloud">
+  <img src="{{site.url}}/img/ninja.png" alt="(´∀｀*)" class="top-ninja">
+</section>
+<img src="/img/background.png" class="top-background">
 <section id="about">
   <h2>DojoCon Japan 2019 について</h2>
   <div class="text">
