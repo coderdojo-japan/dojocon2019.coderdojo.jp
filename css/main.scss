@@ -1,10 +1,12 @@
 ---
 ---
 @import "_variables";
+@import url("https://fonts.googleapis.com/css?family=Concert+One|Kosugi+Maru|Roboto&display=swap");
 a{
   color: inherit;
 }
 body{
+  font-family: 'Roboto','Kosugi Maru', cursive;
   margin: 0;
   text-align: center;
   letter-spacing: .08em;
@@ -19,6 +21,12 @@ section, .post{
   max-width: 1000px;
   clear: both;
   overflow:hidden;
+}
+section{
+  h2{
+    font-family: 'Concert One', cursive;
+    font-size: 2em;
+  }
 }
 .article{
   float: left;
