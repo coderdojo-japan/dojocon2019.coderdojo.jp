@@ -7,7 +7,7 @@ layout: default
   <img src="{{site.url}}/img/cloud.png" class="top-cloud">
   <img src="{{site.url}}/img/ninja.png" alt="(´∀｀*)" class="top-ninja">
 </section>
-<img src="/img/background.png" class="top-background">
+<img src="{{site.url}}/img/background.png" class="top-background">
 <section id="about">
   <h2>DojoCon Japan 2019</h2>
   <div class="text">
