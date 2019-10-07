@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<div class="post-head">
+{% if page.categories %}<div class="post-head">
   <h2>{{page.categories[0] | upcase }}</h2>
-</div>
+</div>{% endif %}
 <div class="post">
 <h1 class="post-title">{{ page.title }}</h1>
 {% if page.categories[0] == "news" %}
@@ -16,7 +16,7 @@ layout: default
   </div>
   <p>{{page.time}}</p>
 {%endif%}
-<img src="{{site.url}}/img/post/{{page.thumbnail}}" alt="thumbnail" class="thumbnail">
+{% if page.thumbnail %}<img src="{{site.url}}/img/post/{{page.thumbnail}}" alt="thumbnail" class="thumbnail">{% endif %}
 <div class='post-content'>
   {{ content }}
 </div>
