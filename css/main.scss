@@ -299,6 +299,9 @@ h2{
     clear: both;
     display: block;
   }
+  .share-twitter, .share-facebook{
+      display: block;
+  }
 }
 .share-facebook{
   background-color: $facebook-color;
@@ -306,7 +309,6 @@ h2{
 }
 .share-twitter{
   background-color: $twitter-color;
-  display: block;
 }
 .share-line{
   background-color: $line-color;
