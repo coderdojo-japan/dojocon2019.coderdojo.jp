@@ -151,9 +151,9 @@ layout: default
 </section>-->
 <section id="coderdojo-foundation">
   <h2>後援</h2>
-  <div class="text">
-    <a href="https://www.meijo-u.ac.jp/" target="_blank">名城大学</a>
-    <a href="https://coderdojo.com/" target="_blank">CoderDojo Foundation</a>
-    <a href="https://coderdojo.jp/" target="_blank">CoderDojo Japan</a>
-  </div>
+  <ul class="list-simple">
+    <li><a href="https://www.meijo-u.ac.jp/" target="_blank">名城大学</a></li>
+    <li><a href="https://coderdojo.com/" target="_blank">CoderDojo Foundation</a></li>
+    <li><a href="https://coderdojo.jp/" target="_blank">CoderDojo Japan</a></li>
+  </ul>
 </section>
