@@ -65,6 +65,15 @@ section{
 .article-title{
   margin-top: 4px;
 }
+@media screen and (max-width: 800px){
+  .article{
+    padding: 1vw;
+    width: calc(100% - 2vw);
+    .article-thumbnail{
+      height: calc( ((80vw / 1.5) - 2vw) * (400 / 600));
+    }
+  }
+}
 
 .background-ninja{
   background: url("{{site.url}}/img/background.jpg");
