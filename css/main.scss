@@ -130,6 +130,7 @@ h2{
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 10;
   input{
     display: none;
   }
@@ -175,9 +176,16 @@ h2{
   color: #000;
   display: none;
   list-style: none;
-  padding: 12px 24px;
+  padding: 0;
   position: fixed;
   text-align: left;
+  > li{
+    padding: 12px 24px;
+    line-height: 1.2em;
+  }
+  > li:hover{
+    background-color: #ddd;
+  }
 }
 .menu-first:hover > .menu-second{
   display: block;
