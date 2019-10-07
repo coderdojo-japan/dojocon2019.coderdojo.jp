@@ -16,7 +16,7 @@ layout: default
   </div>
   <p>{{page.time}}</p>
 {%endif%}
-<img src="/img/{{page.thumbnail}}" alt="thumbnail" class="thumbnail">
+<img src="/img/post/{{page.thumbnail}}" alt="thumbnail" class="thumbnail">
 <div class='post-content'>
   {{ content }}
 </div>
@@ -24,13 +24,15 @@ layout: default
 <h2>スピーカー</h2>
   <div class="speakers">
     {% for speaker in page.speakers %}
-    <!--{{ site.data.speaker | where: "name", speaker }}-->
     {% assign speaker_data = site.data.speaker | where: "name", speaker %}
       <div class="speaker">
         {% for one_speaker in speaker_data %}
-        <img src="/img/speaker/{{one_speaker.img}}" alt="{{one_speaker.name}}">
-        <a href="{{one_speaker.site}}">{{ one_speaker.name }}</a>
-        <p>{{one_speaker.description }}</p>
+        <img src="/img/speaker/{{one_speaker.img}}" alt="{{one_speaker.name}}" class="speaker-img">
+        <h3>{{one_speaker.name}}</h3>
+        {% if one_speaker.site %}<a href="{{one_speaker.site}}" class="link"><i class="fas fa-globe"></i></a>{% endif %}
+        {% if one_speaker.twitter %}<a href="https://twitter.com/{{one_speaker.twitter}}" class="link share-twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+        {% if one_speaker.facebook %}<a href="{{one_speaker.facebook}}" class="link share-facebook"><i class="fab fa-facebook-square"></i></a>{% endif %}
+        <p class="speaker-description">{{one_speaker.description }}</p>
         {% endfor %}
       </div>
     {% endfor %}
