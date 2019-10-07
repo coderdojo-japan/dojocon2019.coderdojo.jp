@@ -235,7 +235,7 @@ h2{
     margin: 0;
   }
   h3{
-    background-color: #000;
+    background-color: $main-color;
     color: #fff;
     margin-right: 12px;
     padding: 4px 12px;
@@ -411,6 +411,15 @@ h2{
 }
 
 @media screen and (max-width: 1000px){
+  .outline-one{
+    text-align: center;
+    *{
+      display: block;
+    }
+    h3{
+      margin: 12px auto 6px;
+    }
+  }
   .text{
     width: 100%;
   }
