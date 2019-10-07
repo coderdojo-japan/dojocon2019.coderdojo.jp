@@ -279,7 +279,6 @@ h2{
 
 .share{
   a{
-    display: block;
     float: left;
     line-height: 60px;
     height: 60px;
@@ -294,9 +293,20 @@ h2{
 }
 .share-facebook{
   background-color: $facebook-color;
+  display: block;
 }
 .share-twitter{
   background-color: $twitter-color;
+  display: block;
+}
+.share-line{
+  background-color: $line-color;
+  display: none;
+}
+@media screen and (max-width: 800px){
+  .share-line{
+    display: block;
+  }
 }
 
 .speaker-description{
