@@ -16,7 +16,7 @@ layout: default
   </div>
   <p>{{page.time}}</p>
 {%endif%}
-<img src="/img/post/{{page.thumbnail}}" alt="thumbnail" class="thumbnail">
+<img src="{{site.url}}/img/post/{{page.thumbnail}}" alt="thumbnail" class="thumbnail">
 <div class='post-content'>
   {{ content }}
 </div>
@@ -27,7 +27,7 @@ layout: default
     {% assign speaker_data = site.data.speaker | where: "name", speaker %}
       <div class="speaker">
         {% for one_speaker in speaker_data %}
-        <img src="/img/speaker/{{one_speaker.img}}" alt="{{one_speaker.name}}" class="speaker-img">
+        <img src="{{site.url}}/img/speaker/{{one_speaker.img}}" alt="{{one_speaker.name}}" class="speaker-img">
         <h3>{{one_speaker.name}}</h3>
         {% if one_speaker.site %}<a href="{{one_speaker.site}}" class="link"><i class="fas fa-globe"></i></a>{% endif %}
         {% if one_speaker.twitter %}<a href="https://twitter.com/{{one_speaker.twitter}}" class="link share-twitter"><i class="fab fa-twitter"></i></a>{% endif %}
