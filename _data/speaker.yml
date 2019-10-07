@@ -3,4 +3,5 @@
 #  site: WebサイトのURL。"https://"から含めること。 (例: https://yuki384.github.io)
 #  twitter: Twitterのユーザー名。@は要らない。(例: YukiMihashi)
 #  facebook: FacebookのURL。(例: https://www.facebook.com/profile.php?id=100014694420954)
+#  position: 肩書。(例: CoderDojo中野メンター)
 #  description: 自己紹介文。140文字程度。
