@@ -333,13 +333,19 @@ h2{
   width: 120px;
 }
 
+#sponsors h3{
+  clear: both;
+}
 .sponsors-rank{
   letter-spacing: -1em;
   margin-bottom: 48px;
   text-align: left;
   img{
-    display: inline;
-    vertical-align: middle;
+    display: block;
+    height: 16vw;
+    max-height: 120px;
+    float: left;
+    object-fit: contain;
   }
 }
 
