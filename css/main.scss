@@ -183,18 +183,14 @@ h2{
 }
 //ナビゲーションバーハンバーガーアイコン(3本線のアイコン部分。レスポンシブ対応)
 .menu-hamburger{
-  color: #fff;
   cursor: pointer;
   display: none;
   position: absolute;
-  top: 6px;
+  top: 14px;
   right: 12px;
+  width: 20px;
   .fa-times{
     display: none;
-  }
-  i{
-    font-size: 24px;
-    line-height: 36px;
   }
 }
 .menu-list{
