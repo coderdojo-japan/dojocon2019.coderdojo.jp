@@ -123,7 +123,9 @@ section {
   transition: .3s;
   width: 30%;
   &:hover{
+    box-shadow: none;
     opacity: 0.8;
+    transform: translateY(12px);
     transition: .3s;
   }
 }
