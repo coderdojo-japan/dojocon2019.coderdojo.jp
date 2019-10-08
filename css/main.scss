@@ -3,6 +3,8 @@
 
 @import '_variables'; //変数の読み込み。/_sass/_variables.scss内に色の変数がある。
 @import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Sans+JP:300,400,500,700,900|Roboto&display=swap'); //Webフォント読み込み。
+
+$navbar: 60px;
 a {
   color: inherit; //リンクの文字色を場所によって変える
 }
@@ -18,7 +20,7 @@ body {
 
 //ヘッダーの設定
 header {
-  padding-bottom: 48px;
+  padding-bottom: $navbar;
 }
 
 //投稿、トップページの情報ごとのひとかたまり
@@ -196,7 +198,7 @@ h2 {
 //ヘッダーのナビゲーションバー
 .menu {
   background-color: $main-color;
-  height: 48px;
+  height: $navbar;
   position: fixed;
   top: 0;
   left: 0;
@@ -228,7 +230,7 @@ h2 {
     color: #fff;
     float: left;
     font-weight: bold;
-    line-height: 48px;
+    line-height: $navbar;
   }
   > li:not(:last-child) {
     margin-right: 24px;
@@ -331,7 +333,7 @@ h2 {
   background-color: $main-color;
   color: #fff;
   margin-bottom: 60px;
-  padding: 48px 0;
+  padding: $navbar 0;
   h2 {
     margin: 0;
   }
@@ -401,7 +403,7 @@ h2 {
 }
 .sponsors-rank {
   letter-spacing: -1em;
-  margin-bottom: 48px;
+  margin-bottom: $navbar;
   text-align: left;
   img {
     display: block;
@@ -497,7 +499,7 @@ h2 {
 .top-background {
   left: 0;
   position: absolute;
-  top: 48px;
+  top: $navbar;
   width: 100%;
   z-index: -10;
 }
