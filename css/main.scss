@@ -46,8 +46,11 @@ section {
 
 //記事一覧
 .article {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 0px 12px rgba($gray, 0.3);
   float: left; //横並び
-  margin-bottom: 24px;
+  margin: 24px 8px;
   text-align: left;
   a {
     text-decoration: none; //外部リンクの下線消す
@@ -60,8 +63,8 @@ section {
 
 //セッション、ワークショップの記事一覧
 .article-event {
-  padding: 1vw;
-  width: calc(50% - 2vw); //1行に2記事入るようにする
+  padding: 2vw;
+  width: calc(50% - 4vw - 16px); //1行に2記事入るようにする
   .article-thumbnail {
     height: calc(
       ((80vw / 2) - 2vw) * (400 / 600)
@@ -71,19 +74,25 @@ section {
 
 //ニュースの記事一覧
 .article-news {
-  padding: 1vw;
-  width: calc(33% - 2vw); //1行に3記事入るようにする
+  padding: 2vw;
+  transition: .3s;
+  width: calc(33% - 4vw - 16px); //1行に3記事入るようにする
   .article-thumbnail {
     height: calc(
       ((80vw / 3) - 2vw) * (400 / 600)
     ); //縦横比率が2:3になるように設定
   }
+  &:hover{
+    color: $main-color;
+    transition: .3s;
+  }
 }
 
 //記事のサムネイル画像
 .article-thumbnail {
-  width: 100%;
+  border-radius: 4px;
   object-fit: cover;
+  width: 100%;
 }
 
 //記事のタイトル
