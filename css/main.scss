@@ -111,10 +111,12 @@ section {
 
 //「もっと見る」、「フォームを開く」などのボタン風リンク
 .button {
-  border: solid $main-color 4px;
-  border-radius: 30px;
+  background-color: $light-blue;
+  border-radius: 10px;
+  box-shadow: 0px 6px $blue-shadow;
+  color: #fff;
   display: block;
-  margin: auto;
+  margin: 0 auto 12px;
   padding: 8px 36px;
   text-align: center;
   text-decoration: none;
