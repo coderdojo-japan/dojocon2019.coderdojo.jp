@@ -366,7 +366,16 @@ h2{
 //スポンサー
 #sponsors h3{
   clear: both;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+  padding: 5px;
+  width: 150px;
+  background: rgba(15, 175, 250, 0.1);
+  color: #646464;
+  font-size: 14px;
 }
+
 .sponsors-rank{
   letter-spacing: -1em;
   margin-bottom: 48px;
