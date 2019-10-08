@@ -92,8 +92,8 @@ layout: default
   <div class="staff">
     <a href="{{staff.site}}" target="_blank">
     <div class="staff-image">
-      {% if staff.img %}<img src="{{site.url}}/img/staff/{{staff.img}}" alt="{{staff.name}}">
-      {% else %}<img src="{{site.url}}/img/staff/dummy.jpg" alt="{{staff.name}}">
+      {% if staff.img %}<img src="{{site.url}}/img/staff/{{staff.img}}" alt="{{staff.name}}" loading="lazy">
+      {% else %}<img src="{{site.url}}/img/staff/dummy.jpg" alt="{{staff.name}}" loading="lazy">
       {% endif %}
     </div>
     <p>{{staff.name}}</p></a>
