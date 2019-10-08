@@ -2,14 +2,14 @@
 ---
 
 @import '_variables'; //変数の読み込み。/_sass/_variables.scss内に色の変数がある。
-@import url('https://fonts.googleapis.com/css?family=Concert+One|M+PLUS+Rounded+1c|Roboto&display=swap'); //Webフォント読み込み。
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Sans+JP:300,400,500,700,900|Roboto&display=swap'); //Webフォント読み込み。
 a {
   color: inherit; //リンクの文字色を場所によって変える
 }
 
 //全体の設定。文字の設定が主である。
 body {
-  font-family: 'Roboto', 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Roboto', 'Noto Sans JP', sans-serif;
   margin: 0;
   text-align: center;
   letter-spacing: 0.08em;
