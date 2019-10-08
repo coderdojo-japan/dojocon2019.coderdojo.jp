@@ -120,7 +120,12 @@ section {
   padding: 8px 36px;
   text-align: center;
   text-decoration: none;
+  transition: .3s;
   width: 30%;
+  &:hover{
+    opacity: 0.8;
+    transition: .3s;
+  }
 }
 
 //フッター
