@@ -87,7 +87,7 @@ layout: default
 </div>
 <section id="staff">
   <h2>STAFF</h2>
-  <p class="caption">スタッフたち</p>
+  <p class="caption">実行委員のみなさん</p>
   {% for staff in site.data.staff %}
   <div class="staff">
     <a href="{{staff.site}}" target="_blank">
