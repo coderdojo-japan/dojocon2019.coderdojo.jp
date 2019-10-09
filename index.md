@@ -90,7 +90,7 @@ layout: default
   <p class="caption">実行委員のみなさん</p>
   {% for staff in site.data.staff %}
   <div class="staff">
-    <a href="{{staff.site}}" target="_blank">
+    <a href="{{staff.site}}" target="_blank" rel="nofollow">
     <div class="staff-image">
       {% if staff.img %}<img src="{{site.url}}/img/staff/{{staff.img}}" alt="{{staff.name}}" loading="lazy">
       {% else %}<img src="{{site.url}}/img/staff/dummy.jpg" alt="{{staff.name}}" loading="lazy">
