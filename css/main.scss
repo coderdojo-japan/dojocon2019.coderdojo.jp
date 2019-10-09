@@ -27,6 +27,7 @@ header {
 section,
 .post {
   margin: 48px auto;
+  padding: 8px;
   width: 80vw;
   max-width: 1000px;
   clear: both;
@@ -71,6 +72,9 @@ section {
     height: calc(
       ((80vw / 2) - 4vw - 16px) * (400 / 600)
     ); //縦横比率が2:3になるように設定
+    max-height: calc(
+      ((800px / 2) - 40px - 16px) * (400 / 600)
+    )
   }
 }
 
@@ -83,6 +87,9 @@ section {
     height: calc(
       ((80vw / 3) - 4vw - 16px) * (400 / 600)
     ); //縦横比率が2:3になるように設定
+    max-height: calc(
+      ((800px / 3) - 40px - 16px) * (400 / 600)
+    )
   }
   &:hover{
     color: $main-color;
@@ -105,8 +112,9 @@ section {
 //画面幅800px以下のときに記事一覧の一つ一つを幅いっぱい表示する(レスポンシブ対応)
 @media screen and (max-width: 800px) {
   .article {
-    padding: 1vw;
-    width: calc(100% - 2vw);
+    padding: 4vw;
+    margin: 6px 0;
+    width: calc(100% - 8vw);
     .article-thumbnail {
       height: calc(((80vw / 1.5) - 2vw) * (400 / 600));
     }
@@ -138,6 +146,13 @@ section {
     opacity: 0.8;
     transform: translateY(12px);
     transition: .3s;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .button{
+    padding: 8px 0;
+    width: 100%;
   }
 }
 
@@ -507,6 +522,7 @@ h2 {
 .top {
   height: 80vh;
   margin-bottom: 0;
+  padding: 0;
   position: relative;
   text-align: center;
   width: 100%;
