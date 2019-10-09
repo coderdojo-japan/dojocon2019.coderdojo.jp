@@ -69,7 +69,7 @@ section {
   width: calc(50% - 4vw - 16px); //1行に2記事入るようにする
   .article-thumbnail {
     height: calc(
-      ((80vw / 2) - 2vw) * (400 / 600)
+      ((80vw / 2) - 4vw - 16px) * (400 / 600)
     ); //縦横比率が2:3になるように設定
   }
 }
@@ -81,7 +81,7 @@ section {
   width: calc(33% - 4vw - 16px); //1行に3記事入るようにする
   .article-thumbnail {
     height: calc(
-      ((80vw / 3) - 2vw) * (400 / 600)
+      ((80vw / 3) - 4vw - 16px) * (400 / 600)
     ); //縦横比率が2:3になるように設定
   }
   &:hover{
@@ -161,10 +161,10 @@ h2 {
 
 //セクションのサムネイル画像
 .img-section {
-  margin-bottom: 36px;
+  margin-bottom: 2vw;
   img {
     border-radius: 4px;
-    height: 32vw;
+    height: 20vw;
     object-fit: cover;
     width: 100%;
   }
