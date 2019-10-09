@@ -208,6 +208,19 @@ h2 {
     display: none;
   }
 }
+
+//申し込みボタン
+.menu-entry-button{
+  background-color: #fff;
+  border-radius: 4px;
+  color: #555;
+  display: inline;
+  font-weight: bold;
+  line-height: $navbar;
+  padding: 8px 36px;
+  text-decoration: none;
+}
+
 //ナビゲーションバーハンバーガーアイコン(3本線のアイコン部分。レスポンシブ対応)
 .menu-hamburger {
   cursor: pointer;
@@ -237,7 +250,6 @@ h2 {
   }
   li a {
     text-decoration: none;
-    color: inherit;
   }
 }
 
@@ -262,6 +274,14 @@ h2 {
 }
 
 @media screen and (max-width: 1000px) {
+  .menu-entry-button{
+    background-color: $main-color;
+    border-radius: 0;
+    color: #fff;
+    display: block;
+    font-size: 1.2em;
+    padding: 12px 0;
+  }
   .menu-list {
     background-color: rgba(255, 255, 255, 0.8);
     display: none;
