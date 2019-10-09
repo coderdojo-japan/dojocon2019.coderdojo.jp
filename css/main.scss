@@ -471,17 +471,21 @@ h2 {
   float: left;
   padding: 1.5vw;
   width: calc(20% - 3vw);
-  p {
-    transition: 0.3s;
-  }
-}
-.staff-image img {
-  border-radius: 50%;
-  width: 100%;
 }
 .staff:hover p {
   font-weight: bold;
-  transition: 0.3s;
+  transition: 0.5s;
+}
+
+.staff-image img {
+  border-radius: 50%;
+  box-shadow: 0 0 3px #d1d3e4;
+  width: 100%;
+}
+.staff-image :hover {
+  border-radius: 40%;
+  box-shadow: 0 0 10px #d1d3e4;
+  transition: 0.5s;
 }
 
 //タグ
