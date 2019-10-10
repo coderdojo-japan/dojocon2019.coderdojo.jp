@@ -42,6 +42,7 @@ layout: default
     </div>
     <p>※参加には事前の申し込みが必要となります。<br>イベント終了後、懇親会の開催を予定しております。</p>
   </div>
+  <a href="https://dojocon-japan.doorkeeper.jp/events/97430" class="button">申し込みをする</a>
 </section>
 </div>
 <section id="access">
