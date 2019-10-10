@@ -23,6 +23,13 @@
 		{% else %}
 		<meta property="og:image" content="{{site.url}}/img/main.png" />
 		{% endif %}
+
+		{% if page.url != "/" %}
+			<meta property="og:type" content="article" />
+		{% else %}
+			<meta property="og:type" content="website" />
+		{% endif %}
+
 		<meta property="og:description" content="{{site.description}}" />
 		<meta property="fb:app_id" content="1750803431730303" />
 	</head>
