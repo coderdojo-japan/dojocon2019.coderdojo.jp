@@ -231,8 +231,11 @@ h2 {
   color: #555;
   display: inline;
   font-weight: bold;
-  line-height: $navbar;
+  line-height: 24px;
+  margin: calc(( 60px - 40px)/ 2);
   padding: 8px 36px;
+  position: absolute;
+  right: 10vw;
   text-decoration: none;
 }
 
