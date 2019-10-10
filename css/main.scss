@@ -474,6 +474,9 @@ h2 {
   float: left;
   padding: 1.5vw;
   width: calc(20% - 3vw);
+  p {
+    transition: 0.5s;
+  }
 }
 .staff:hover p {
   font-weight: bold;
@@ -483,6 +486,7 @@ h2 {
 .staff-image img {
   border-radius: 50%;
   box-shadow: 0 0 3px #d1d3e4;
+  transition: 0.5s;
   width: 100%;
 }
 .staff-image :hover {
