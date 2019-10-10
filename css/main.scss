@@ -8,7 +8,9 @@ $navbar: 60px;
 a {
   color: inherit; //リンクの文字色を場所によって変える
 }
-
+html{
+  scroll-behavior: smooth;
+}
 //全体の設定。文字の設定が主である。
 body {
   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
@@ -355,6 +357,25 @@ h2 {
     padding: 4px 12px;
     text-align: center;
     width: 5em;
+  }
+}
+
+#page-top a{
+  background-color: $light-blue;
+  border-radius: 35px;
+  bottom: 0;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 70px;
+  height: 70px;
+  margin: 4vw;
+  opacity: .6;
+  position: fixed;
+  right: 0;
+  transition: .3s;
+  width: 70px;
+  &:hover{
+    opacity: 1;
   }
 }
 
