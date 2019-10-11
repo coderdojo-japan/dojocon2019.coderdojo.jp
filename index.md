@@ -2,10 +2,15 @@
 layout: default
 ---
 <section class="top">
-  <img src="{{site.url}}/img/dojocon_brown_oneline.png" alt="DojoConJapan2019" class="top-title-big top-title">
-  <img src="{{site.url}}/img/dojocon_brown.png" alt="DojoConJapan2019" class="top-title-small top-title">
+  <!--<img src="{{site.url}}/img/dojocon_brown_oneline.png" alt="DojoConJapan2019" class="top-title-big top-title">
+  <img src="{{site.url}}/img/dojocon_brown.png" alt="DojoConJapan2019" class="top-title-small top-title">-->
   <img src="{{site.url}}/img/cloud.png" class="top-cloud">
   <img src="{{site.url}}/img/ninja.png" alt="(´∀｀*)" class="top-ninja">
+
+  <h1>DojoCon Japan 2019</h1>
+  <p class="top-theme"><i class="fas fa-caret-right"></i> つぎのSTEP</p>
+  <p class="top-date">12.21<span>SAT</span></p>
+  <p class="top-venue">in<br class="ph"> 名城大学 ナゴヤドーム前キャンパス<br class="ph"> 社会連携ゾーンshake</p>
 </section>
 <img src="{{site.url}}/img/background.png" class="top-background">
 <section id="about">
