@@ -1,23 +1,35 @@
 gold:
   - name: 株式会社ソニックガーデン
-    img: sonicgarden.png
+    img: sponsor_gold_sonicgarden.png
     site: https://www.sonicgarden.jp/
 
 silver:
   - name: 株式会社ドットインストール
-    img: dotinstall.svg
+    img: sponsor_silver_dotinstall.svg
     site: https://dotinstall.com/
+
+  - name: 株式会社アフレル
+    img: sponsor-silver-afrel.jpg
+    site: https://afrel.co.jp/
+
+  - name: さくらインターネット株式会社
+    img: sponsor-silver-sakura-internet.png
+    site: https://www.sakura.ad.jp/
 
 bronze:
   - name: 株式会社ＩＴアドバイザー (アイティアドバイザー)
-    img: itadvisor.png
+    img: sponsor_bronze_itadvisor.png
     site: http://it-a-net.co.jp/
+
+  - name: ユニーク・アイネット株式会社
+    img: sponsor-bronze-unique-inet.png
+    site: https://www.unique-inet.co.jp/
 
 in-kind:
   - name: YassLab 株式会社
-    img: yasslab.png
+    img: sponsor_inkind_yasslab.png
     site: https://yasslab.jp/
 
   - name: 株式会社RALLY
-    img: rally.png
+    img: sponsor_inkind_rally.png
     site: https://rallyapp.jp/
