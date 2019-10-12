@@ -42,6 +42,22 @@ DojoCon Japan 2019 実行委員会(以下、当実行委員会) では、利用�
 ## SSLの使用について
 個人情報の入力時には、セキュリティ確保のため、これらの情報が傍受、妨害または改竄されることを防ぐ目的でSSL技術を使用しております。 プライバシーポリシーの変更、収集する個人情報の変更、利用目的の変更、またはその他プライバシーポリシーの変更を行う際は、当ページでの変更を持って公表とさせていただきます。
 
+## Google Analyticsの利用について
+本サイトではホームページの利用状況を把握するためにGoogle Analyticsを利用しています。 Google Analyticsから提供されるCookieを使用していますが、Google Analyticsによって個人を特定する情報は取得していません。
+
+Google Analyticsの利用により収集されたデータは、Google社のプライバシーポリシーに基づいて管理されています。
+
+利用規約・プライバシーポリシーについてはGoogle社のホームページでご確認ください。
+
+- Googleのサービスを使用するサイトやアプリから収集した情報のGoogleによる使用：
+    - [https://www.google.com/intl/ja/policies/privacy/partners/](https://www.google.com/intl/ja/policies/privacy/partners/)
+- Google Analyticsの利用規約：
+    - [https://www.google.com/analytics/terms/jp.html](https://www.google.com/analytics/terms/jp.html)
+- Google社のプライバシーポリシー：
+    - [https://www.google.com/intl/ja/policies/privacy/](https://www.google.com/intl/ja/policies/privacy/)
+
+なお、Google Analyticsのサービス利用による損害については、当実行委員会は責任を負わないものとします。
+
 DojoCon Japan 2019 実行委員会  
 連絡先: dojocon2019@coderdojo.jp  
-最終更新日: 2019/10/01  
+最終更新日: 2019/10/12
