@@ -5,9 +5,6 @@
 @import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Sans+JP:300,400,500,700,900|Roboto:400,900&display=swap'); //Webフォント読み込み。
 
 $navbar: 60px;
-a {
-  color: inherit; //リンクの文字色を場所によって変える
-}
 html{
   scroll-behavior: smooth;
 }
@@ -16,12 +13,16 @@ body {
   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
   margin: 0;
   text-align: center;
+  color: $brown;
 }
 p, a, h3{
   letter-spacing: 0.08em;
   line-height: 1.8em;
 }
 
+a {
+  color: inherit; //リンクの文字色を場所によって変える
+}
 //ヘッダーの設定
 header {
   padding-bottom: $navbar;
