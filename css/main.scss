@@ -2,7 +2,7 @@
 ---
 
 @import '_variables'; //変数の読み込み。/_sass/_variables.scss内に色の変数がある。
-@import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Sans+JP:300,400,500,700,900|Roboto:400,900&display=swap'); //Webフォント読み込み。
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Sans+JP:400,900|Roboto:400,900|M+PLUS+Rounded+1c:400,800&display=swap'); //Webフォント読み込み。
 
 $navbar: 60px;
 html{
@@ -629,7 +629,8 @@ h2 {
 .top-theme {
   color: $brown;
   font-size: 24px;
-  font-weight: 900;
+  font-family: 'M PLUS Rounded 1c';
+  font-weight: 800;
 }
 .top-venue {
   color: $brown;
