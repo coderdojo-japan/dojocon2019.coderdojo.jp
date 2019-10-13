@@ -4,3 +4,4 @@ _site
 .vscode
 .atom
 .idea
+.DS_Store

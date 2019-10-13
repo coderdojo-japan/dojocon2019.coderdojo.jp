@@ -47,7 +47,7 @@ layout: default
     </div>
     <p>※参加には事前の申し込みが必要となります。<br>イベント終了後、懇親会の開催を予定しております。</p>
   </div>
-  <a href="https://dojocon-japan.doorkeeper.jp/events/97430" class="button">申し込みをする</a>
+  <a href="https://dojocon-japan.doorkeeper.jp/events/97430" class="button" target="_blank">申し込みをする</a>
 </section>
 </div>
 <section id="access">
@@ -149,7 +149,7 @@ layout: default
 <section id="contactme">
   <h2>CONTACT</h2>
   <p class="caption">お問い合わせ</p>
-  <a href="https://docs.google.com/forms/d/1dwufJyrm-4EiGZOz0iFOU7Xgg16g9QbTbP3J1Quepag" class="button">フォームを開く</a>
+  <a href="https://docs.google.com/forms/d/1dwufJyrm-4EiGZOz0iFOU7Xgg16g9QbTbP3J1Quepag" class="button" target="_blank">フォームを開く</a>
 </section>
 </div>
 <!--<section id="sns">
