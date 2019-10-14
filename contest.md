@@ -75,4 +75,4 @@ CoderDojoに参加したことのあるニンジャ
 ## 配布用チラシ
 各 CoderDojo セッションにて配布できるよう、チラシを作成しました。
 <img src="{{site.url}}/img/post/GoGlobal2019_flyer.png" style="width: 360px; max-width:100%; display: block; margin:0 auto;"/>
-[GoGlobal2019_flyer.pngを開く]({{site.url}}/img/post/GoGlobal2019_flyer.png)
+[GoGlobal2019_flyer.pdfを開く]({{site.url}}/img/post/GoGlobal2019_flyer.pdf)
