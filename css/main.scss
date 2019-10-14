@@ -567,7 +567,6 @@ h2 {
 
 //トップ・メインビジュアル
 .top {
-  height: 80vh;
   margin-bottom: 0;
   padding: 0;
   position: relative;
@@ -582,7 +581,6 @@ h2 {
   }
   img {
     left: 0;
-    position: absolute;
     z-index: -8;
   }
   p{
@@ -597,11 +595,13 @@ h2 {
   z-index: -10;
 }
 .top-cloud {
+  position: absolute;
   width: 100% !important;
 }
 .top-ninja {
   bottom: 0;
-  display: block;
+  max-height: 60%;
+  margin: 24px 0;
   max-width: 100%;
 }
 .top-title {
