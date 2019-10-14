@@ -4,6 +4,7 @@ title: "GO GLOBAL! プログラミングコンテスト 作品募集！"
 categories: contest
 date: 2019-09-02 15:00:00 +0900
 permalink: /contests/1/
+thumbnail: ../goglobal_thumbnail.png
 ---
 
 子ども達に海外の文化やコミュニティーにふれてもらいたい。その思いから、昨年に続き今年も『ソニックガーデン presents Go Global! DojoCon Japan 2019 プログラミングコンテスト』を開催いたします。最優秀賞受賞者は、アイルランドで2020年6月頃に開催されるCoolest Projectsへご招待します。
