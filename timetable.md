@@ -34,6 +34,9 @@ title: "タイムテーブル"
     <ol>
       {% for session in site.data.sessions %}
       <li style="height: calc(({{session.etime}} - {{session.stime}}) * 8px - 20px - 8px); top: calc({{session.stime | minus: 600.0}} * 8px);">
+        <div class="session-tag">
+          {{session.tag}}
+        </div>
         {%if session.url %}<a href="{{session.url}}">{% endif %}
         <h3>{{session.title}}</h3>
         {%if session.url %}</a>{% endif %}
@@ -50,6 +53,9 @@ title: "タイムテーブル"
         <h3>{{workshop.title}}</h3>
         {%if workshop.url %}</a>{% endif %}
         <p>[{{workshop.stime | floor | divided_by: 60 }}:{{workshop.stime | floor | modulo: 60}}-{{workshop.etime | floor | divided_by: 60 }}:{{workshop.etime | floor | modulo: 60}}] {{workshop.speaker}}</p>
+        {% for tag in workshop.tag %}
+          <span class="tag-workshop">{{tag}}</span>
+        {% endfor %}
       </li>
       {% endfor %}
     </ol>
