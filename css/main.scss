@@ -621,6 +621,14 @@ h2 {
   background-color: $light-blue;
   color: #fff;
 }
+@media screen and (max-width: 1000px) {
+  .table-head{
+    width: calc((100% - 58px) - 16px - 8px);
+  }
+  .table-timehead{
+    height: calc(24px * 2 + 16px + 8px);
+  }
+}
 
 //タグ
 .tags {
