@@ -239,6 +239,16 @@ h2 {
   }
 }
 
+.menu-close {
+  background-color: #ff6a33;
+  border-radius: 0 0 0 8px;
+  display: none;
+  padding: 24px 14px;
+  position: absolute;
+  right: -24px;
+  top: -14px;
+}
+
 //申し込みボタン
 .menu-entry-button{
   background-color: #fff;
@@ -347,11 +357,11 @@ h2 {
   ~ .menu-list {
     display: block;
   }
-  ~ .menu-hamburger .fa-times {
-    display: block;
-  }
-  ~ .menu-hamburger .fa-bars {
+  ~ .menu-hamburger .menu-bars {
     display: none;
+  }
+  ~  .menu-hamburger .menu-close {
+    display: block;
   }
 }
 
