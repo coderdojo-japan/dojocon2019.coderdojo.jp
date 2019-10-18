@@ -25,6 +25,10 @@ bronze:
     img: sponsor-bronze-unique-inet.png
     site: https://www.unique-inet.co.jp/
 
+  - name: 株式会社エイチーム
+    img: sponsor-bronze-ateam.png
+    site: https://www.a-tm.co.jp/
+
 in-kind:
   - name: YassLab 株式会社
     img: sponsor-inkind-yasslab.png
