@@ -58,7 +58,7 @@ section {
   border-radius: 6px;
   box-shadow: 0px 0px 12px rgba($gray, 0.3);
   float: left; //横並び
-  margin: 24px 8px;
+  margin: 12px 8px;
   text-align: left;
   a {
     text-decoration: none; //外部リンクの下線消す
@@ -95,6 +95,7 @@ section {
 
 //ニュースの記事一覧
 .article-news {
+  height: 40vh;
   padding: 2vw;
   transition: .3s;
   width: calc(33% - 4vw - 16px); //1行に3記事入るようにする
