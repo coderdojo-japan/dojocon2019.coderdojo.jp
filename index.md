@@ -7,7 +7,7 @@ layout: default
   <img src="{{site.url}}/img/cloud.png" class="top-cloud">
 
   <h1>DojoCon Japan <br>2019</h1>
-  <div class="top-theme"><i class="fas fa-caret-right"></i> つぎのSTEP</div>
+  <div class="top-theme"><img src="{{site.url}}/img/svg/right.svg" alt="" class="top-right"> つぎのSTEP</div>
   <p class="top-date">12.21<span>SAT</span></p>
   <p class="top-venue">in<br class="ph"> 名城大学 ナゴヤドーム前キャンパス<br class="ph"> 社会連携ゾーンshake</p>
 
