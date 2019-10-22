@@ -109,13 +109,15 @@ layout: default
   <p class="caption">実行委員のみなさん</p>
   {% for staff in site.data.staff %}
   <div class="staff">
+    {% if staff.site %}
     <a href="{{staff.site}}" target="_blank" rel="nofollow">
+    {% endif %}
     <div class="staff-image">
       {% if staff.img %}<img src="{{site.url}}/img/staff/{{staff.img}}" alt="{{staff.name}}" loading="lazy">
       {% else %}<img src="{{site.url}}/img/staff/dummy.png" alt="{{staff.name}}" loading="lazy">
       {% endif %}
     </div>
-    <p>{{staff.name}}</p></a>
+    <p>{{staff.name}}</p>{% if staff.site %}</a>{% endif %}
   </div>
   {% endfor %}
 </section>
