@@ -528,8 +528,12 @@ h2 {
   float: left;
   padding: 1.5vw;
   width: calc(20% - 3vw);
+  height: 22vh;
   p {
+    font-size: 14px;
+    margin-top: 12px;
     transition: 0.5s;
+    width: 100%;
   }
 }
 .staff:hover p {
