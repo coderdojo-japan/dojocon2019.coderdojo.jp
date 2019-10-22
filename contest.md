@@ -69,9 +69,9 @@ CoderDojoに参加したことのあるニンジャ
 - 事後に、盗用作品など応募要項の審査基準を満たさないことがわかった場合は、受賞を取り消すことがあります。
 
 
-<a href="https://drive.google.com/open?id=1wZVjG9WQ6k27v39_72ELSFW-M1NqCV87MzPldC8mY5o" class="button">お問い合わせ</a>
+<a href="https://forms.gle/B6DxEWTZjSSWkb7D9" class="button">お問い合わせ</a>
 <a href="{{site.url}}/img/post/contestrule2019.pdf" class="button">参加規約</a>
-<a href="https://docs.google.com/forms/d/15nG6Yhfp9We20FbO-mHpet9ehOvqe5Csm0s8nTH2mLk" class="button">作品応募</a>
+<a href="https://forms.gle/RmwEofCBHC9gXBC97" class="button">作品応募</a>
 
 ## 配布用チラシ
 各 CoderDojo セッションにて配布できるよう、チラシを作成しました。

@@ -164,7 +164,7 @@ layout: default
 <section id="contactme">
   <h2>CONTACT</h2>
   <p class="caption">お問い合わせ</p>
-  <a href="https://docs.google.com/forms/d/1dwufJyrm-4EiGZOz0iFOU7Xgg16g9QbTbP3J1Quepag" class="button">フォームを開く</a>
+  <a href="https://forms.gle/pc82bDDD8a1iGHpX7" class="button">フォームを開く</a>
 </section>
 </div>
 <!--<section id="sns">
