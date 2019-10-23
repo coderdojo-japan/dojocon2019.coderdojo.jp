@@ -28,7 +28,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-include-cache
+  
 sass:
     sass_dir: _sass
 
@@ -42,7 +43,8 @@ defaults:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+  - .jekyll-cache
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
