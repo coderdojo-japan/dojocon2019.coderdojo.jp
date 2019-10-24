@@ -342,6 +342,7 @@ h2 {
       display: block;
       float: none;
       margin: 0 !important;
+      line-height: 7vh;
     }
   }
   .menu-second {
@@ -349,6 +350,10 @@ h2 {
     display: block;
     position: static;
     text-align: center;
+    > li{
+      line-height: 7vh;
+      padding: 0;
+    }
   }
   .menu-hamburger {
     display: block;
