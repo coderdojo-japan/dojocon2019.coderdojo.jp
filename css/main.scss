@@ -556,6 +556,16 @@ h2 {
   box-shadow: 0 0 10px #d1d3e4;
   transition: 0.5s;
 }
+
+@media screen and (max-width: 800px) {
+  .staff {
+    width: calc(33% - 3vw);
+  }
+  .staff-image{
+    height: calc(26vw - 3vw);
+  }
+}
+
 /*タイムテーブルCSS*/
 .table-column {
   float: left;
