@@ -95,7 +95,6 @@ section {
 
 //ニュースの記事一覧
 .article-news {
-  height: 40vh;
   padding: 2vw;
   transition: .3s;
   width: calc(33% - 4vw - 16px); //1行に3記事入るようにする
@@ -111,8 +110,16 @@ section {
     color: $main-color;
     transition: .3s;
   }
-}
+  .article-title{
+    height: 3.6em;
 
+  }
+}
+@media screen and (max-width: 1150px) {
+  .article-title{
+    height: 5.4em;
+  }
+}
 //記事のサムネイル画像
 .article-thumbnail {
   border-radius: 4px;
