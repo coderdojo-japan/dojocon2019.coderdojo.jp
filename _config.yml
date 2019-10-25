@@ -29,7 +29,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-include-cache
-  
+
 sass:
     sass_dir: _sass
 
@@ -52,3 +52,5 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+google_analytics: UA-144999290-1
