@@ -31,7 +31,12 @@
 		{% endif %}
 
 		<meta property="og:description" content="{{site.description}}" />
-		<meta property="fb:app_id" content="1750803431730303" />
+    <meta property="fb:app_id" content="1750803431730303" />
+
+    {% if jekyll.environment == 'production' %}
+    {% include googleanalytics.html %}
+    {% endif %}
+
 	</head>
 	<body>
     {% include navbar.html %}
