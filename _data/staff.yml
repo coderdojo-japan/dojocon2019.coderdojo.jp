@@ -72,7 +72,7 @@
 
 - name: おーらん
   site: https://coderdojo-kozukue.connpass.com/
-  img:
+  img: yukiosawa.jpg
 
 - name: 柴田 篤志
   site: https://www.facebook.com/shibata.atsushi.untrois.jp
@@ -105,3 +105,7 @@
 - name: 田口 奈緒子
   site:
   img:
+
+- name: 中谷 一郎
+  site: https://www.facebook.com/nakatani.ichiro.1
+  img: ichiro.jpg
