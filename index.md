@@ -125,7 +125,7 @@ layout: default
   <h2>SPONSORS</h2>
   <p class="caption">スポンサーさま</p>
   <!-- /_data/sponsors.ymlからランクごとに読み込んで表示している。もっとスマートになるはず… -->
-  <h3>Gold Sponsor</h3>
+  <h3>Gold Sponsors</h3>
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.gold %}
     <a href="{{sponsor.site}}" target="_blank">
@@ -134,7 +134,7 @@ layout: default
     {% endfor %}
   </div>
 
-  <h3>Silver Sponsor</h3>
+  <h3>Silver Sponsors</h3>
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.silver %}
     <a href="{{sponsor.site}}" target="_blank">
@@ -143,7 +143,7 @@ layout: default
     {% endfor %}
   </div>
 
-  <h3>Bronze Sponsor</h3>
+  <h3>Bronze Sponsors</h3>
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.bronze %}
     <a href="{{sponsor.site}}" target="_blank">
