@@ -1,3 +1,5 @@
+[![GitHub Actions Status Badge](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/workflows/Ruby/badge.svg)](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/actions)
+
 # DojoCon Japan 2019 Webサイト案
 yuki384によるWebサイト案です。
 
