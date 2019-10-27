@@ -154,7 +154,8 @@ layout: default
 </section>
 
 <section id="coderdojo-foundation">
-  <h2>後援</h2>
+  <h2>UNDER THE AUSPICE OF</h2>
+  <p class="caption">後援</p>
   <ul class="list-simple">
     <li><a href="https://www.meijo-u.ac.jp/" target="_blank">名城大学</a></li>
     <li><a href="https://coderdojo.com/" target="_blank">CoderDojo Foundation</a></li>
