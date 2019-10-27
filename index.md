@@ -104,23 +104,7 @@ layout: default
     </a>
   </article>
 </section>
-<section id="staff">
-  <h2>STAFF</h2>
-  <p class="caption">実行委員のみなさん</p>
-  {% for staff in site.data.staff %}
-  <div class="staff">
-    {% if staff.site %}
-    <a href="{{staff.site}}" target="_blank" rel="nofollow">
-    {% endif %}
-    <div class="staff-image">
-      {% if staff.img %}<img src="{{site.url}}/img/staff/{{staff.img}}" alt="{{staff.name}}" loading="lazy">
-      {% else %}<img src="{{site.url}}/img/staff/dummy.png" alt="{{staff.name}}" loading="lazy">
-      {% endif %}
-    </div>
-    <p>{{staff.name}}</p>{% if staff.site %}</a>{% endif %}
-  </div>
-  {% endfor %}
-</section>
+
 <section id="sponsors">
   <h2>SPONSORS</h2>
   <p class="caption">スポンサーさま</p>
@@ -160,6 +144,16 @@ layout: default
     {% endfor %}
   </div>
 </section>
+
+<section id="coderdojo-foundation">
+  <h2>後援</h2>
+  <ul class="list-simple">
+    <li><a href="https://www.meijo-u.ac.jp/" target="_blank">名城大学</a></li>
+    <li><a href="https://coderdojo.com/" target="_blank">CoderDojo Foundation</a></li>
+    <li><a href="https://coderdojo.jp/" target="_blank">CoderDojo Japan</a></li>
+  </ul>
+</section>
+
 <div class="background-ninja">
 <section id="contactme">
   <h2>CONTACT</h2>
@@ -170,11 +164,21 @@ layout: default
 <!--<section id="sns">
   <h2>SNS</h2>
 </section>-->
-<section id="coderdojo-foundation">
-  <h2>後援</h2>
-  <ul class="list-simple">
-    <li><a href="https://www.meijo-u.ac.jp/" target="_blank">名城大学</a></li>
-    <li><a href="https://coderdojo.com/" target="_blank">CoderDojo Foundation</a></li>
-    <li><a href="https://coderdojo.jp/" target="_blank">CoderDojo Japan</a></li>
-  </ul>
+
+<section id="staff">
+  <h2>STAFF</h2>
+  <p class="caption">実行委員のみなさん</p>
+  {% for staff in site.data.staff %}
+  <div class="staff">
+    {% if staff.site %}
+    <a href="{{staff.site}}" target="_blank" rel="nofollow">
+    {% endif %}
+    <div class="staff-image">
+      {% if staff.img %}<img src="{{site.url}}/img/staff/{{staff.img}}" alt="{{staff.name}}" loading="lazy">
+      {% else %}<img src="{{site.url}}/img/staff/dummy.png" alt="{{staff.name}}" loading="lazy">
+      {% endif %}
+    </div>
+    <p>{{staff.name}}</p>{% if staff.site %}</a>{% endif %}
+  </div>
+  {% endfor %}
 </section>
