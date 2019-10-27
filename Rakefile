@@ -1,5 +1,5 @@
-# cf. How to test a Jekyll site
-# http://joenyland.me/blog/how_to_test_a_jekyll_site/
+# cf. GitHub - gjtorikian/html-proofer
+# https://github.com/gjtorikian/html-proofer
 
 require 'html-proofer'
 task test: [:build] do
