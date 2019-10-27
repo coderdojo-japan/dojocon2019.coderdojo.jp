@@ -143,6 +143,14 @@ layout: default
     </a>
     {% endfor %}
   </div>
+  <!--<h3>Individual Sponsors</h3>
+  <div class="sponsors-rank">
+    <p>
+    {% for sponsor in site.data.sponsors.individual %}
+    {{sponsor.name}},
+    {% endfor %}
+    </p>
+  </div>-->
 </section>
 
 <section id="coderdojo-foundation">
