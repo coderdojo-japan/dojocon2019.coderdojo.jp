@@ -7,10 +7,10 @@ yuki384によるWebサイト案です。
 Jekyllで動いているので、ローカル環境で開発する場合はJekyllとNode.jsをセットアップしてください。
 
 表示のさせ方です。
-1. ` $ npm install `
-2. ` $ bundle install`
-3. `$ bundle exec jekyll server`
-4. `localhost:4000` にアクセス
+
+1. `$ bundle install`
+1. `$ bundle exec jekyll server`
+1. [localhost:4000](http://localhost:4000/) にアクセス
 
 ## できていること
 - トップページの表示
