@@ -1,7 +1,6 @@
 [![GitHub Actions Status Badge](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/workflows/Ruby/badge.svg)](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/actions)
 
-# DojoCon Japan 2019 Webサイト案
-yuki384によるWebサイト案です。
+# DojoCon Japan 2019 公式サイト
 
 ## 動かしかた
 Jekyllで動いているので、ローカル環境で開発する場合はJekyllとNode.jsをセットアップしてください。
@@ -12,28 +11,20 @@ Jekyllで動いているので、ローカル環境で開発する場合はJekyl
 1. `$ bundle exec jekyll server`
 1. [localhost:4000](http://localhost:4000/) にアクセス
 
-## できていること
-- トップページの表示
-- 基本的な情報の掲載
-- ニュース・ワークショップ・セッション の記事をmdファイルから変換してトップに表示
-- `_data`内のymlファイルからのスタッフ一覧取得・表示
-- スポンサーの掲載とランクに応じた表示(`_data`内のymlファイルで管理)
-  - Goldは幅いっぱい、Silverは半分、BronzeとIn-kindは5等分
-- Facebook・Twitterシェアボタン設置
-- ヘッダー・フッターの実装
-- お知らせ・セッション・ワークショップの詳細ページ
-- セッションのスピーカーを`_data`内のymlファイルで管理・表示
-- URLのカスタム(詳しくは `/_posts/template.md`)
+## 各項目追加のやりかた
+### スポンサー追加
+1. 画像を`/img/sponsor/`内に配置。ファイル名は`sponsor-ランク名-企業名英語表記`
+1. `_data/sponsors.yml` の任意のランクカテゴリ下に次の内容を記入する
+   ```
+    - name: 企業名  
+    img: 表示するロゴ画像のパス
+    site: 企業のサイト
+   ```
 
-## toDo
-まだ実装できていないものです。
-- 記事の掲載
-- スピーカー詳細ページ
-- タイムテーブル
-- トップ画像・タイトルロゴの表示(デザインがコーディングに追いついていないです)
-- スタッフ、ニュース、アクセス、開催概要 などのレスポンシブ対応
-- ファビコン
-- OGP画像
-- 行動規範
-- その他細かいデザイン
-  - 本当は「見出しを巻物風デザインにしたい」「ここ余白足りないな」などデザイン面で改善点がたくさんあるのですが、CSSは基本的なHTMLができていれば後で好きなだけ書けますので、まずは記事やスピーカーの情報管理の部分を実装しました。
+### スピーカー追加
+`_data/speaker.yml`参照
+### セッション・ワークショップ、お知らせ追加
+`_posts/template.md`参照
+
+### スタッフ追加
+`_data/staff.yml`参照
