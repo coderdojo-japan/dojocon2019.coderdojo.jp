@@ -33,6 +33,10 @@ bronze:
     img: sponsor-bronze-ateam.png
     site: https://www.a-tm.co.jp/
 
+  - name: 株式会社スケールフリーネットワーク
+    img: sponsor-bronze-sfn.png
+    site: https://www.scalefree.co.jp/
+
   - name: ポノス株式会社
     img: sponsor-bronze-ponos.png
     site: https://www.ponos.jp/
@@ -47,4 +51,4 @@ in-kind:
     site: https://rallyapp.jp/
 
 individual:
-  - name: 
+  - name:
