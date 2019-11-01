@@ -113,7 +113,7 @@ layout: default
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.gold %}
     <a href="{{sponsor.site}}" target="_blank">
-    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-gold">
+    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-gold sponsors-rank-img">
     </a>
     {% endfor %}
   </div>
@@ -122,7 +122,7 @@ layout: default
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.silver %}
     <a href="{{sponsor.site}}" target="_blank">
-    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-silver">
+    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-silver sponsors-rank-img">
     </a>
     {% endfor %}
   </div>
@@ -131,7 +131,7 @@ layout: default
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.bronze %}
     <a href="{{sponsor.site}}" target="_blank">
-    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-bronze">
+    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-bronze sponsors-rank-img">
     </a>
     {% endfor %}
   </div>
@@ -139,7 +139,7 @@ layout: default
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.in-kind %}
     <a href="{{sponsor.site}}" target="_blank">
-    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-in-kind">
+    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-in-kind .sponsors-rank-img">
     </a>
     {% endfor %}
   </div>

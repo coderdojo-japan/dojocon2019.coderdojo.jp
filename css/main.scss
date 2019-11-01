@@ -512,13 +512,16 @@ h2 {
   letter-spacing: -1em;
   margin-bottom: $navbar;
   text-align: left;
-  img {
-    display: block;
-    height: 16vw;
-    max-height: 120px;
-    float: left;
-    object-fit: contain;
+  a{
+    letter-spacing: -1em;
   }
+}
+.sponsors-rank-img {
+  display: block;
+  height: 16vw;
+  max-height: 120px;
+  float: left;
+  object-fit: contain;
 }
 
 .sponsor-gold {
