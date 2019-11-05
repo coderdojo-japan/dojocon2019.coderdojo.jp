@@ -2,7 +2,7 @@
 <html lang="ja" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<title>{{ site.title }} | {{page.title}}</title>
+		<title>{%if page.title%}{{page.title}} | {%endif%}{{ site.title }} {{page.copy}}</title>
 		<link rel="stylesheet" href="{{site.url}}/css/main.css" />
     <script src="https://kit.fontawesome.com/c6331cba56.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
