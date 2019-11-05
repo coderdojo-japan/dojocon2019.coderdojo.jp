@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "- つぎのSTEP -"
 ---
 <section class="top">
   <!--<img src="{{site.url}}/img/dojocon_brown_oneline.png" alt="DojoConJapan2019" class="top-title-big top-title">
