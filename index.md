@@ -144,14 +144,14 @@ copy: "- つぎのSTEP -"
     </a>
     {% endfor %}
   </div>
-  <!--<h3>Individual Sponsors</h3>
+  <h3>Individual Sponsors</h3>
   <div class="sponsors-rank">
-    <p>
+    <p class="individual">
     {% for sponsor in site.data.sponsors.individual %}
     {{sponsor.name}},
     {% endfor %}
     </p>
-  </div>-->
+  </div>
 </section>
 
 <section id="coderdojo-foundation">
