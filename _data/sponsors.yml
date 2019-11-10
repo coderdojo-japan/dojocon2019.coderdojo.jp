@@ -41,6 +41,10 @@ bronze:
     img: sponsor-bronze-ponos.png
     site: https://www.ponos.jp/
 
+  - name: 中京テレビ放送株式会社
+    img: sponsor-bronze-chukyotv.png
+    site: https://www.ctv.co.jp/
+
 in-kind:
   - name: YassLab 株式会社
     img: sponsor-inkind-yasslab.png
