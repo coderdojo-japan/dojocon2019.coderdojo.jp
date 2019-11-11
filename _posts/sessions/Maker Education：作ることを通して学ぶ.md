@@ -6,7 +6,7 @@ categories: session
 thumbnail: 
 tags: 
 speakers:
-    - 名前
+    - 小室 真紀
 time: 
 ---
 

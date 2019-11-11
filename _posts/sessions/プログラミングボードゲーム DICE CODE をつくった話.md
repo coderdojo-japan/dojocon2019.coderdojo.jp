@@ -6,7 +6,7 @@ categories: session
 thumbnail:
 tags:
 speakers:
-    - 名前
+    - 常田 卓磨  （ツネダ タクマ）
 time:
 ---
 

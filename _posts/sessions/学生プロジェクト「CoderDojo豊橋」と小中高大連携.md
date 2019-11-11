@@ -6,7 +6,7 @@ categories: session
 thumbnail:
 tags:
 speakers:
-    - 名前
+    - 今井 正文
 time:
 ---
 

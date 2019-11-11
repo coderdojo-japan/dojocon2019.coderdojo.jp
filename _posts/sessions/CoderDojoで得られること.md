@@ -6,7 +6,7 @@ categories: session
 thumbnail:
 tags:
 speakers:
-    - 名前
+    - くろやなぎひろあき
 time:
 ---
 

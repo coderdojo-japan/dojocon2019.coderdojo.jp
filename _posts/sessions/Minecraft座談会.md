@@ -6,7 +6,12 @@ categories: session
 thumbnail:
 tags:
 speakers:
-    - 名前
+    - 山口 光士
+    - 安藤 元気
+    - 内田 和雄
+    - 浦添 一
+    - 浦添 尚文
+    - 杉山 美鈴
 time:
 ---
 

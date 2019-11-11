@@ -6,7 +6,7 @@ categories: session
 thumbnail:
 tags:
 speakers:
-    - 名前
+    - 山口 光士（やまぐち みつし）
 time:
 ---
 
