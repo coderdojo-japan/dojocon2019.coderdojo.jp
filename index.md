@@ -146,11 +146,11 @@ copy: "- つぎのSTEP -"
   </div>
   <h3>Individual Sponsors</h3>
   <div class="sponsors-rank">
-    <p class="individual">
+    <ul class="individual">
     {% for sponsor in site.data.sponsors.individual %}
-    {{sponsor.name}},
+    <li>{{sponsor.name}}</li>
     {% endfor %}
-    </p>
+    </ul>
   </div>
 </section>
 
