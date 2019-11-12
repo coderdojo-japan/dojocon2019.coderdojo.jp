@@ -158,7 +158,6 @@ copy: "- つぎのSTEP -"
   <h2>UNDER THE AUSPICE OF</h2>
   <p class="caption">後援</p>
   <ul class="list-simple">
-    <li><a href="https://www.meijo-u.ac.jp/" target="_blank">名城大学</a></li>
     <li><a href="https://coderdojo.com/" target="_blank">CoderDojo Foundation</a></li>
     <li><a href="https://coderdojo.jp/" target="_blank">CoderDojo Japan</a></li>
   </ul>
