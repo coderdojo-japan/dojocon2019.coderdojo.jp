@@ -79,7 +79,7 @@ section {
   margin-bottom: 4px;
 }
 
-//セッション、ワークショップの記事一覧
+//ワークショップの記事一覧
 .article-event {
   padding: 2vw;
   width: calc(50% - 4vw - 16px); //1行に2記事入るようにする
@@ -90,6 +90,14 @@ section {
     max-height: calc(
       ((800px / 2) - 40px - 16px) * (400 / 600)
     )
+  }
+}
+//セッションの記事一覧
+.article-session {
+  padding: 2vw;
+  width: calc(50% - 4vw - 16px);
+  .article-thumbnail {
+    height: auto !important;
   }
 }
 
