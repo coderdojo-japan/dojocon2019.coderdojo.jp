@@ -4,7 +4,7 @@ title: "Minecraft座談会"
 date: 2019-11-21 10:00:00 +0900
 categories: session
 thumbnail:
-tags:
+tags: パネルディスカッション
 speakers:
     - 山口 光士
     - 安藤 元気

@@ -4,7 +4,7 @@ title: "CoderDojoで得られること"
 date: 2019-11-21 10:00:00 +0900
 categories: session
 thumbnail:
-tags:
+tags: セミナー
 speakers:
     - くろやなぎひろあき
 time:

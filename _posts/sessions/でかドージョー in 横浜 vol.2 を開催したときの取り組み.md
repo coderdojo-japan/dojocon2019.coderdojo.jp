@@ -4,7 +4,7 @@ title: "でかドージョー in 横浜 vol.2 を開催したときの取り組�
 date: 2019-11-21 10:00:00 +0900
 categories: session
 thumbnail:
-tags:
+tags: セミナー
 speakers:
     - 植田 洋次
 time:
