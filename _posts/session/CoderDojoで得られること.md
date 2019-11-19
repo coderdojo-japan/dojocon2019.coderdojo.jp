@@ -8,6 +8,7 @@ tags: セミナー
 speakers:
     - くろやなぎひろあき
 time:
+permalink: /session/1/
 ---
 
 CoderDojo Anjo のチャンピオンとして２年間で主催・参加したイベントを紹介します。その中からCoderDojoを通じて得られたことを考えてみます。
