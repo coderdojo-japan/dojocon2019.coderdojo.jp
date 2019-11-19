@@ -1,4 +1,8 @@
 gold:
+  - name: グーグル合同会社
+    img: sponsor-gold-google.png
+    site: https://www.google.co.jp/
+
   - name: 日本アイ・ビー・エム株式会社
     img: sponsor-gold-ibm.jpg
     site: https://developer.ibm.com/jp/
