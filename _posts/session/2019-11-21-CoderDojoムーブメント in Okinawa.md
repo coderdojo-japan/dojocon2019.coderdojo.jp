@@ -6,7 +6,7 @@ categories: session
 thumbnail: "session_02.jpg"
 tags: セミナー
 speakers:
-    - 山口 光士（やまぐち みつし）
+    - 山口 光士  （やまぐち みつし）
 time:
 permalink: /session/2/
 ---
