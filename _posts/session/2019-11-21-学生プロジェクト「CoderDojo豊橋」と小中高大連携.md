@@ -3,7 +3,7 @@ layout: post
 title: "学生プロジェクト「CoderDojo豊橋」と小中高大連携"
 date: 2019-11-21 10:00:00 +0900
 categories: session
-thumbnail:
+thumbnail: "session_10.jpg"
 tags: セミナー
 speakers:
     - 今井 正文

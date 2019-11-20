@@ -3,7 +3,7 @@ layout: post
 title: "CoderDojoムーブメント in Okinawa"
 date: 2019-11-21 10:00:00 +0900
 categories: session
-thumbnail:
+thumbnail: "session_02.jpg"
 tags: セミナー
 speakers:
     - 山口 光士（やまぐち みつし）
