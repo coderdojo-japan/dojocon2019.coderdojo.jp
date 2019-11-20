@@ -53,6 +53,11 @@ section {
 }
 
 //記事一覧
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .article {
   background-color: #fff;
   border-radius: 6px;

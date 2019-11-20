@@ -77,9 +77,11 @@ copy: "- つぎのSTEP -"
   <div class="img-section">
     <img src="{{site.url}}/img/workshop.jpg" alt="Workshop"> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
   </div>
+  <div class="flex">
   {% for post in site.categories.workshop %}
     {% include workshops.html %}
   {% endfor %}
+  </div>
 </section>
 <div class="background-ninja">
 <section id="sessions">
@@ -88,9 +90,11 @@ copy: "- つぎのSTEP -"
   <div class="img-section">
     <img src="{{site.url}}/img/session.jpg" alt="Session"> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
   </div>
+  <div class="flex">
   {% for post in site.categories.session %}
     {% include sessions.html %}
   {% endfor %}
+  </div>
 </section>
 </div>
 <section id="contest">
@@ -177,6 +181,7 @@ copy: "- つぎのSTEP -"
 <section id="staff">
   <h2>STAFF</h2>
   <p class="caption">実行委員のみなさん</p>
+  <div class="flex">
   {% for staff in site.data.staff %}
   <div class="staff">
     {% if staff.site %}
@@ -190,4 +195,5 @@ copy: "- つぎのSTEP -"
     <p>{{staff.name}}</p>{% if staff.site %}</a>{% endif %}
   </div>
   {% endfor %}
+  </div>
 </section>
