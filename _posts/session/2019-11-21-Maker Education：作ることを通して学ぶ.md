@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Maker Education：作ることを通して学ぶ" 
-date: 2019-11-21 10:00:00 +0900
+title: "Maker Education：作ることを通して学ぶ"
+date: 2019-11-21 10:00:09 +0900
 categories: session
 thumbnail: "session_03.jpg"
 tags: 特別講演
 speakers:
     - 小室 真紀
-time: 
+time:
 permalink: /session/3/
 ---
 

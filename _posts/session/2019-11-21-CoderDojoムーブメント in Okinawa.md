@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CoderDojoムーブメント in Okinawa"
-date: 2019-11-21 10:00:00 +0900
+date: 2019-11-21 10:00:01 +0900
 categories: session
 thumbnail: "session_02.jpg"
 tags: セミナー
