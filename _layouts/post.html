@@ -30,9 +30,9 @@ layout: default
         <img src="{{site.url}}/img/speaker/{{one_speaker.img}}" alt="{{one_speaker.name}}" class="speaker-img">
         <h3>{{one_speaker.name}}</h3>
         {% if one_speaker.position %}<p>{{ one_speaker.position }}</p>{% endif %}
-        {% if one_speaker.site %}<a href="{{one_speaker.site}}" target="_blank" class="link"><i class="fas fa-globe"></i></a>{% endif %}
-        {% if one_speaker.twitter %}<a href="https://twitter.com/{{one_speaker.twitter}}" target="_blank" class="link share-twitter"><i class="fab fa-twitter"></i></a>{% endif %}
-        {% if one_speaker.facebook %}<a href="{{one_speaker.facebook}}" target="_blank" class="link share-facebook"><i class="fab fa-facebook-square"></i></a>{% endif %}
+        {% if one_speaker.site %}<a href="{{one_speaker.site}}" target="_blank" rel="nofollow" class="link"><i class="fas fa-globe"></i></a>{% endif %}
+        {% if one_speaker.twitter %}<a href="https://twitter.com/{{one_speaker.twitter}}" target="_blank" rel="nofollow" class="link share-twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+        {% if one_speaker.facebook %}<a href="{{one_speaker.facebook}}" target="_blank" rel="nofollow" class="link share-facebook"><i class="fab fa-facebook-square"></i></a>{% endif %}
         <p class="speaker-description">{{one_speaker.description }}</p>
         {% endfor %}
       </div>
