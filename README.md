@@ -25,13 +25,13 @@
    - お知らせ用ディレクトリ: [_post/news/](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/tree/master/_posts/news)
    - セッション用ディレクトリ: [_post/session/](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/tree/master/_posts/session)
 
-### スポンサー追加
-1. 画像を [img/sponsor/](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/tree/master/img/sponsor) 内に配置。ファイル名は`sponsor-ランク名-企業名英語表記`
-1. [_data/sponsors.yml](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_data/sponsors.yml) の任意のランクカテゴリ下に次の内容を記入する
+### スポンサーの追加
+1. スポンサー企業のロゴ画像を [img/sponsor/](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/tree/master/img/sponsor) 内に配置。ファイル名は`sponsor-ランク名-企業名英語表記`
+1. [_data/sponsors.yml](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_data/sponsors.yml) の当該ランクカテゴリの下に、次のフォーマットで追記する
    ```
     - name: 企業名  
       img: 表示するロゴ画像のパス
-      site: 企業のサイト
+      site: 企業のサイトURL
    ```
 
 ## 動かしかた (開発者向け)
