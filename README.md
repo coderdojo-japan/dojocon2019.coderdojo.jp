@@ -13,8 +13,8 @@ Jekyllで動いているので、ローカル環境で開発する場合はJekyl
 
 ## 各項目追加のやりかた
 ### スポンサー追加
-1. 画像を`/img/sponsor/`内に配置。ファイル名は`sponsor-ランク名-企業名英語表記`
-1. `_data/sponsors.yml` の任意のランクカテゴリ下に次の内容を記入する
+1. 画像を [img/sponsor/](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/tree/master/img/sponsor) 内に配置。ファイル名は`sponsor-ランク名-企業名英語表記`
+1. [_data/sponsors.yml](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_data/sponsors.yml) の任意のランクカテゴリ下に次の内容を記入する
    ```
     - name: 企業名  
     img: 表示するロゴ画像のパス
@@ -22,9 +22,16 @@ Jekyllで動いているので、ローカル環境で開発する場合はJekyl
    ```
 
 ### スピーカー追加
-`_data/speaker.yml`参照
-### セッション・ワークショップ、お知らせ追加
-`_posts/template.md`参照
+[_data/speaker.yml](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_data/speaker.yml) 参照
+
+### セッション追加
+[_data/sessions.yml](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_data/sessions.yml) 参照
+
+### ワークショップ追加
+[_data/workshop.yml](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_data/workshop.yml) 参照
 
 ### スタッフ追加
-`_data/staff.yml`参照
+[_data/staff.yml](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_data/staff.yml) 参照
+
+### お知らせ記事の投稿
+[_posts/template.md](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_posts/template.md) 参照
