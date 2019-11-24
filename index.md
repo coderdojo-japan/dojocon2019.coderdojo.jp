@@ -55,7 +55,7 @@ copy: "- つぎのSTEP -"
 <section id="access">
   <h2>ACCESS</h2>
   <p class="caption">会場の場所</p>
-  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3260.69697362165!2d136.9440337!3d35.1891045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003119bbc4c9fc5%3A0xd5c643a8df7fc59!2z5ZCN5Z-O5aSn5a2mIOODiuOCtOODpOODieODvOODoOWJjeOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sus!4v1568871387623!5m2!1sja!2sus" loading="lazy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  <iframe title="google map" class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3260.69697362165!2d136.9440337!3d35.1891045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003119bbc4c9fc5%3A0xd5c643a8df7fc59!2z5ZCN5Z-O5aSn5a2mIOODiuOCtOODpOODieODvOODoOWJjeOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sus!4v1568871387623!5m2!1sja!2sus" loading="lazy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
   <div class="text">
     <h3>名城大学 ナゴヤドーム前キャンパス 社会連携ゾーンshake</h3>
     <p>愛知県名古屋市東区矢田南 4-102-9</p>
