@@ -28,7 +28,7 @@ Jekyllで動いているので、ローカル環境で開発する場合はJekyl
 [_data/sessions.yml](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_data/sessions.yml) 参照
 
 ### ワークショップ追加
-[_data/workshop.yml](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_data/workshop.yml) 参照
+[_data/workshops.yml](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_data/workshops.yml) 参照
 
 ### スタッフ追加
 [_data/staff.yml](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_data/staff.yml) 参照
