@@ -15,12 +15,15 @@ Jekyllで動いているので、ローカル環境で開発する場合はJekyl
 ## 投稿・追加のやりかた
 
 ### お知らせ記事の投稿
-[_posts/template.md](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_posts/template.md) 参照
+[_posts/template.md](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_posts/template.md) ファイルをコピーして、適宜情報を埋めて、[_post/news/](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/tree/master/_posts/news) に追加する
 
 ### ワークショップ追加
 [_data/workshops.yml](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_data/workshops.yml) 参照
 
 ### セッション追加
+[_posts/template.md](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_posts/template.md) ファイルをコピーして、適宜情報を埋めて、[_post/session/](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/tree/master/_posts/session) に追加する
+
+### タイムテーブル追加 (未公開)
 [_data/sessions.yml](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_data/sessions.yml) 参照
 
 ### スピーカー追加
