@@ -49,7 +49,7 @@ copy: "- つぎのSTEP -"
     </div>
     <p>※参加には事前の申し込みが必要となります。<br>イベント終了後、懇親会の開催を予定しております。</p>
   </div>
-  <a href="https://dojocon-japan.doorkeeper.jp/" class="button" target="_blank">申し込みをする</a>
+  <a href="https://dojocon-japan.doorkeeper.jp/" class="button" target="_blank" rel="noopener">申し込みをする</a>
 </section>
 </div>
 <section id="access">
@@ -117,7 +117,7 @@ copy: "- つぎのSTEP -"
   <h3>Gold Sponsors</h3>
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.gold %}
-    <a href="{{sponsor.site}}" target="_blank">
+    <a href="{{sponsor.site}}" target="_blank" rel="noopener">
     <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-gold sponsors-rank-img">
     </a>
     {% endfor %}
@@ -126,7 +126,7 @@ copy: "- つぎのSTEP -"
   <h3>Silver Sponsors</h3>
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.silver %}
-    <a href="{{sponsor.site}}" target="_blank">
+    <a href="{{sponsor.site}}" target="_blank" rel="noopener">
     <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-silver sponsors-rank-img">
     </a>
     {% endfor %}
@@ -135,7 +135,7 @@ copy: "- つぎのSTEP -"
   <h3>Bronze Sponsors</h3>
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.bronze %}
-    <a href="{{sponsor.site}}" target="_blank">
+    <a href="{{sponsor.site}}" target="_blank" rel="noopener">
     <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-bronze sponsors-rank-img">
     </a>
     {% endfor %}
@@ -143,7 +143,7 @@ copy: "- つぎのSTEP -"
   <h3>In-kind Sponsors</h3>
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.in-kind %}
-    <a href="{{sponsor.site}}" target="_blank">
+    <a href="{{sponsor.site}}" target="_blank" rel="noopener">
     <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-in-kind .sponsors-rank-img">
     </a>
     {% endfor %}
@@ -162,8 +162,8 @@ copy: "- つぎのSTEP -"
   <h2>UNDER THE AUSPICE OF</h2>
   <p class="caption">後援</p>
   <ul class="list-simple">
-    <li><a href="https://coderdojo.com/" target="_blank">CoderDojo Foundation</a></li>
-    <li><a href="https://coderdojo.jp/" target="_blank">CoderDojo Japan</a></li>
+    <li><a href="https://coderdojo.com/" target="_blank" rel="noopener">CoderDojo Foundation</a></li>
+    <li><a href="https://coderdojo.jp/" target="_blank" rel="noopener">CoderDojo Japan</a></li>
   </ul>
 </section>
 
@@ -171,7 +171,7 @@ copy: "- つぎのSTEP -"
 <section id="contactme">
   <h2>CONTACT</h2>
   <p class="caption">お問い合わせ</p>
-  <a href="https://forms.gle/pc82bDDD8a1iGHpX7" class="button" target="_blank">フォームを開く</a>
+  <a href="https://forms.gle/pc82bDDD8a1iGHpX7" class="button" target="_blank" rel="noopener">フォームを開く</a>
 </section>
 </div>
 <!--<section id="sns">
@@ -185,7 +185,7 @@ copy: "- つぎのSTEP -"
   {% for staff in site.data.staff %}
   <div class="staff">
     {% if staff.site %}
-    <a href="{{staff.site}}" target="_blank" rel="nofollow">
+    <a href="{{staff.site}}" target="_blank" rel="nofollow"  rel="noopener">
     {% endif %}
     <div class="staff-image">
       {% if staff.img %}<img src="{{site.url}}/img/staff/{{staff.img}}" alt="{{staff.name}}" loading="lazy">
