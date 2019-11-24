@@ -75,7 +75,7 @@ copy: "- つぎのSTEP -"
   <h2>WORKSHOP</h2>
   <p class="caption">ワークショップ</p>
   <div class="img-section">
-    <img src="{{site.url}}/img/workshop.jpg" alt="Workshop"> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
+    <img src="{{site.url}}/img/workshop.jpg" alt="Workshop" loading="lazy"> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
   </div>
   <div class="flex">
   {% for post in site.categories.workshop %}
@@ -88,7 +88,7 @@ copy: "- つぎのSTEP -"
   <h2>SESSION</h2>
   <p class="caption">セッション</p>
   <div class="img-section">
-    <img src="{{site.url}}/img/session.jpg" alt="Session"> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
+    <img src="{{site.url}}/img/session.jpg" alt="Session" loading="lazy"> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
   </div>
   <div class="flex">
   {% for post in site.categories.session %}
@@ -101,7 +101,7 @@ copy: "- つぎのSTEP -"
   <h2>CONTEST</h2>
   <p class="caption">コンテスト</p>
   <article class="article article-contest">
-    <img src="{{site.url}}/img/goglobal_thumbnail.png" alt="Contest" class="article-thumbnail">
+    <img src="{{site.url}}/img/goglobal_thumbnail.png" alt="Contest" class="article-thumbnail" loading="lazy">
     <h3>GO GLOBAL! プログラミングコンテスト 作品募集！</h3>
     <p>子ども達に海外の文化やコミュニティーにふれてもらいたい。その思いから、昨年に続き今年も『ソニックガーデン presents Go Global! DojoCon Japan 2019 プログラミングコンテスト』を開催いたします。最優秀賞受賞者は、アイルランドで2020年6月頃に開催されるCoolest Projectsへご招待します。</p>
     <a href="{{site.url}}/contests/1" class="button">
