@@ -1,6 +1,7 @@
 [![GitHub Actions Status Badge](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/workflows/Ruby/badge.svg)](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/actions)
 
 # DojoCon Japan 2019 公式サイト
+![Cover Photo](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/img/main.png?raw=true)
 
 ## 動かしかた
 Jekyllで動いているので、ローカル環境で開発する場合はJekyllとNode.jsをセットアップしてください。
