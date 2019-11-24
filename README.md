@@ -22,8 +22,8 @@
 1. [_posts/template.md](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/blob/master/_posts/template.md) ファイルをコピーする
 1. コメントアウトを解除し、適宜情報を埋める
 1. 各種ディレクトリに当該ファイルを追加する
-   - お知らせ用ディレクトリ: [_post/news/](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/tree/master/_posts/news)
-   - セッション用ディレクトリ: [_post/session/](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/tree/master/_posts/session)
+   - :newspaper: :news: お知らせ用ディレクトリ: [_post/news/](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/tree/master/_posts/news)
+   - :woman_teacher: :man_teacher: セッション用ディレクトリ: [_post/session/](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/tree/master/_posts/session)
 
 ### スポンサーの追加
 1. スポンサー企業のロゴ画像を [img/sponsor/](https://github.com/coderdojo-japan/dojocon2019.coderdojo.jp/tree/master/img/sponsor) 内に配置。ファイル名は`sponsor-ランク名-企業名英語表記`
