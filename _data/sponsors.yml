@@ -49,6 +49,10 @@ bronze:
     img: sponsor-bronze-chukyotv.png
     site: https://www.ctv.co.jp/
 
+  - name: ワンダースクール（株式会社バンダイ）
+    img: sponsor-bronze-wonderschool.png
+    site: https://thewonder.it/bukatsu/programming/?utm_source=DojoCon2019
+
 in-kind:
   - name: 学校法人 名城大学
     img: sponsor-inkind-meijoUniv.png
