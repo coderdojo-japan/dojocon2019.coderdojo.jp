@@ -159,11 +159,18 @@ copy: "- つぎのSTEP -"
 </section>
 
 <section id="coderdojo-foundation">
-  <h2>UNDER THE AUSPICE OF</h2>
+  <h2>Organized by</h2>
+  <p class="caption">主催</p>
+  <ul class="list-simple">
+    <li>DojoCon Japan 2019 実行委員会</li>
+    <li><a href="https://coderdojo.jp/" target="_blank" rel="noopener">一般社団法人 CoderDojo Japan</a></li>
+  </ul>
   <p class="caption">後援</p>
   <ul class="list-simple">
     <li><a href="https://coderdojo.com/" target="_blank" rel="noopener">CoderDojo Foundation</a></li>
-    <li><a href="https://coderdojo.jp/" target="_blank" rel="noopener">CoderDojo Japan</a></li>
+    <li>愛知県教育委員会</li>
+    <li>岐阜県教育委員会</li>
+    <li>名古屋市教育委員会</li>
   </ul>
 </section>
 
