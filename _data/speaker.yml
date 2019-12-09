@@ -11,7 +11,7 @@
   twitter: YukiMihashi
   img: ../staff/mihashi.jpg
   position: CoderDojo メンター / DojoCon Japan 2019 実行委員
-  description: 高校1年生。関東付近の様々なCoderDojoにメンターとして参加。中学2年生で小中高生向けのプログラミングサークル「ECoder’s」を立ち上げ、現在も月に1回程度開催している。最近はScratchの技術書執筆やプログラミング教室の講師など、ビジュアルプログラミング言語の可能性を伝える活動をしている。
+  description: 高校1年生。関東付近の様々なCoderDojoにメンターとして参加。中学2年生で小中高生向けのプログラミングサークル「ECoder’s」を立ち上げた。最近はScratchの技術書執筆やプログラミング教室の講師など、ビジュアルプログラミング言語の可能性を伝える活動をしている。
 
 - name: 野崎 智弘
   facebook: https://www.facebook.com/nztm.fcb
@@ -120,3 +120,74 @@
   facebook: https://www.facebook.com/myamaguchi555
   img: mitsushiyamaguchi2.png
   description: CoderDojo宜野湾、浦添を運営しています。沖縄生まれ沖縄育ち、20代の頃、5年くらい東京・神奈川に住んでました。3人の子を持つ父親です。東京のアジャイルに特化したベンチャーの沖縄拠点をみています。よく使う言語はJava、Ruby、Swift、C#とか。職務上の専門は業務分析とプロジェクトマネジメント。固くなった頭をいつもCoderDojoで子供たちに柔らかくしてもらっています。Minecraftのミニゲーム「Egg Wars」で世界ランク1位のやつと戦ったことがあるのが自慢です。ちなみに秒殺されました。Minecraft最高です！
+
+- name: たぬま
+  position: <b>[企画・運営]</b><br>CoderDojo 尾張 メンター
+
+- name: 伴
+  position: <b>[企画・運営]</b><br>CoderDojo 尾張 メンター
+
+- name: Nicola Lyons
+  position: CoderDojo Foundation, Global Community Manager
+  twitter: nicolamlyons
+  site: https://coderdojo.com/
+  description: Nicola は CoderDojo のグローバルコミュニティマネージャー。ダブリン大学で英文学の学士・修士を取得。NPOやテクノロジーイベント、スタータップなどで活動を続ける。教育・テクノロジー・社会事業が交わる CoderDojo での仕事をすごく愛している。仕事以外では、演劇、映画、読書、ヨガが大好きで、ダブリンの Dogpatch Labs Dojo で同僚とのボランティアも参加している。
+
+- name: 安川 要平
+  position: <b>[進行]</b><br>CoderDojo Japan 代表理事
+  site: https://coderdojo.jp
+  twitter: CoderDojoJapan
+  facebook: https://facebook.com/coderdojo.jp
+  img: ../staff/yoheiyasukawa.jpg
+  description: 2012年に下北沢オープンソースCafeのメンバーと共にアジア初の CoderDojo を立ち上げ、当時から現在に到るまで CoderDojo コミュニティをより楽しくしていくためのコミットを続けています。
+
+- name: Katz Ueno
+  position: <b>[通訳]</b><br>DojoCon Japan 2019 実行委員長 / CoderDojo 尾張 チャンピオン
+  site: https://coderdojoowari.org/
+  twitter: katzueno
+  img: ../staff/katzueno.jpg
+  description: 2017年4月より、愛知県岩倉市で CoderDojo 尾張を立ち上げる。コンクリートファイブジャパン株式会社の Chief Communications Officer として、オープンソース CMS 「concrete5」の日本での普及活動を行っている。2児の父で、長女と一緒に Viscuit を楽しんでいる毎日。
+
+- name: 柴田 重臣
+  position: <b>[翻訳]</b><br>CoderDojo Mito
+
+- name: 横川 ヒロタカ
+  position: <b>[翻訳]</b><br>CoderDojo あざみ野
+  img: ../staff/hirotakayokokawa.jpg
+
+- name: 加藤 典子
+  position: IBM Developer Advocate
+
+- name: 鈴木 秀和
+  position: 名城大学理工学部情報工学科　准教授<br>IBM Champion 2019
+
+- name: CoderDojo 豊橋 / 豊橋創造大学今井ゼミ一同
+
+- name: とーる
+  position: CoderDojo 尾張 メンター
+
+- name: 宇津 義一
+  position: DojoCon Japan 2019 実行委員長 / CoderDojo 名古屋 チャンピオン / システムエンジニア
+  site: https://coderdojo-nagoya.connpass.com/
+
+- name: 利根川 裕太
+  position: 特定非営利活動法人みんなのコード　代表理事
+  site: https://code.or.jp/
+  description: 特定非営利活動法人代表理事。慶應義塾大学卒業後、森ビル株式会社に入社。2012年にラクスル株式会社を現代表取締役社長CEOの松本恭攝氏と創業し、エンジニアとしてテクノロジーの力を体感し、次世代教育を志す。2015年にみんなのコード（当時一般社団法人）を立ち上げ、2016年には文部科学省「小学校段階における論理的思考力や創造性 問題解決能力等の育成とプログラミング教育に関する有識者会議」の有識者委員を、2018年には内閣官房 教育再生会議 技術革新ワーキンググループ委員を拝命。
+
+- name: 宮島 衣瑛
+  position: 一般社団法人 CoderDojo Japan 理事 / DojoCon Japan 2018 実行委員長 / CoderDojo Kashiwa チャンピオン
+  description: 2013年5月から地元である千葉県柏市で小中学生向けのプログラミング道場、CoderDojo Kashiwaを主催・運営。プログラミング教育を始めとするICT教育全般について、全国各地で実践研究を行っている。教育分野のResearch & Developmentを行っているInnovationPower Co.,LtdのCEO。2017年4月より柏市教育委員会とプログラミング教育に関するプロジェクトをスタート。市内すべての小学校で実施するプログラミング学習のカリキュラム作成やフォローアップを担当。2017年11月より一般社団法人CoderDojo Japan理事。大学では教育についてより専門的に学んでいる。
+
+- name: りんどうまき
+  site: http://maki-rindoh.blog.jp/
+  position: <b>[グラフィックレコーダー]</b><br>「伝える」をデザインする　グラフィックレコーダー/イラストレーター
+  description: グラレコや、まんがやイラストを使ったコンテンツにより、伝えたい想いや伝えるべき内容をより深く引き出し、伝えたい相手に届きやすい形にして伝えます。
+
+
+- name: 松末 一希
+  position: CoderDojo 尾張 メンター & 高等学校教員
+  description: CoderDojo 尾張に2019年より参加。愛知県内の高校の教員として働く。今日はプライベートで参加中。
+
+- name: 細谷 崇（ほそや たかし）
+  position: <b>[司会]</b><br>CoderDojo西宮 チャンピオン / CoderDojo梅田 チャンピオン / DojoCon Japan 2016 実行委員長 / DojoCon Japan 2017 実行委員長 / 一般社団法人CoderDojo Japan 設立時社員 / NPO法人のためのIT支援事務所 ht 代表 / サイボウズ株式会社公認 kintone エバンジェリスト
