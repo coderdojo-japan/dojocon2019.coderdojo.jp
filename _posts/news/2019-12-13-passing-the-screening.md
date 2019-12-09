@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "一次審査を通過した６つの作品のまとめ"
-date: 2019-12-01 09:00:00 +09:00
+date: 2019-12-13 09:00:00 +09:00
 thumbnail: "contest_thumbnail.png"
 categories: news
 description: "「ソニックガーデン presents Go Global! DojoCon Japan 2019 プログラミングコンテスト」で一次審査を通過した６つの作品をご紹介します。"
-permalink: /posts/9/
+permalink: /posts/10/
 ---
 
 「ソニックガーデン presents Go Global! DojoCon Japan 2019 プログラミングコンテスト」で一次審査を通過した６つの作品をご紹介します。
