@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CoderDojo Foundation 公式ファシリテーターワークショップ"
-date: 2019-12-09 10:00:00 +0900
+date: 2019-12-09 10:00:09 +0900
 categories: workshop
 thumbnail: 05_workshop.png
 tags: ワークショップ メンター向け 要当日整理券

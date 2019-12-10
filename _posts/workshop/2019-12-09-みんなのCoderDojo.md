@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "みんなのCoderDojo"
-date: 2019-12-09 10:00:00 +0900
+date: 2019-12-09 10:00:04 +0900
 categories: workshop
 thumbnail: minnnanocoderdojo.png
 tags:

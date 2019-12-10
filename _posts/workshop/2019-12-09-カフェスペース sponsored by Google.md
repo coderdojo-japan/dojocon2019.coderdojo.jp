@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "カフェスペース sponsored by Google"
-date:   2019-12-09 10:00:00 +0900
+date:   2019-12-09 10:00:02 +0900
 categories: workshop
 thumbnail: thumbnail_workshop.png
 tags: 休憩スペース
