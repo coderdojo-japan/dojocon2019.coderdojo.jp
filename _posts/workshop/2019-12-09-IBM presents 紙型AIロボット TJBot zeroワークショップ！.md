@@ -3,7 +3,7 @@ layout: post
 title: "IBM presents 紙型AIロボット TJBot zeroワークショップ！"
 date: 2019-12-09 10:00:00 +0900
 categories: workshop
-thumbnail:
+thumbnail: 06_tjbot_zero.jpg
 tags: セルフサービスワークショップ メンター向け ニンジャ向け
 speakers:
   - 加藤 典子

@@ -3,7 +3,7 @@ layout: post
 title: "凸凹があってもいい、CoderDojoが支える子どもたちの次のステップ"
 date: 2019-12-09 10:00:00 +0900
 categories: workshop
-thumbnail:
+thumbnail: thumbnail_workshop.png
 tags: 対話・交流会
 permalink:
 room: D204

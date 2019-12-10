@@ -3,7 +3,7 @@ layout: post
 title: "みんなのCoderDojo"
 date: 2019-12-09 10:00:00 +0900
 categories: workshop
-thumbnail:
+thumbnail: minnnanocoderdojo.png
 tags:
   - 対話・交流会
   - メンター向け
