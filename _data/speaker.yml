@@ -123,14 +123,17 @@
 
 - name: たぬま
   position: <b>[企画・運営]</b><br>CoderDojo 尾張 メンター
+  img: ../staff/kazuhirotanuma.jpg
 
 - name: 伴
   position: <b>[企画・運営]</b><br>CoderDojo 尾張 メンター
+  img: ../staff/banmakoto.jpg
 
 - name: Nicola Lyons
   position: CoderDojo Foundation, Global Community Manager
   twitter: nicolamlyons
   site: https://coderdojo.com/
+  img: nicola.JPG
   description: Nicola は CoderDojo のグローバルコミュニティマネージャー。ダブリン大学で英文学の学士・修士を取得。NPOやテクノロジーイベント、スタータップなどで活動を続ける。教育・テクノロジー・社会事業が交わる CoderDojo での仕事をすごく愛している。仕事以外では、演劇、映画、読書、ヨガが大好きで、ダブリンの Dogpatch Labs Dojo で同僚とのボランティアも参加している。
 
 - name: 安川 要平
@@ -165,29 +168,36 @@
 
 - name: とーる
   position: CoderDojo 尾張 メンター
+  img: toru.jpg
 
 - name: 宇津 義一
   position: DojoCon Japan 2019 実行委員長 / CoderDojo 名古屋 チャンピオン / システムエンジニア
   site: https://coderdojo-nagoya.connpass.com/
+  img: ../staff/utsu.jpg
 
 - name: 利根川 裕太
   position: 特定非営利活動法人みんなのコード　代表理事
   site: https://code.or.jp/
   description: 特定非営利活動法人代表理事。慶應義塾大学卒業後、森ビル株式会社に入社。2012年にラクスル株式会社を現代表取締役社長CEOの松本恭攝氏と創業し、エンジニアとしてテクノロジーの力を体感し、次世代教育を志す。2015年にみんなのコード（当時一般社団法人）を立ち上げ、2016年には文部科学省「小学校段階における論理的思考力や創造性 問題解決能力等の育成とプログラミング教育に関する有識者会議」の有識者委員を、2018年には内閣官房 教育再生会議 技術革新ワーキンググループ委員を拝命。
+  img: yutatonegawa.jpg
 
 - name: 宮島 衣瑛
   position: 一般社団法人 CoderDojo Japan 理事 / DojoCon Japan 2018 実行委員長 / CoderDojo Kashiwa チャンピオン
   description: 2013年5月から地元である千葉県柏市で小中学生向けのプログラミング道場、CoderDojo Kashiwaを主催・運営。プログラミング教育を始めとするICT教育全般について、全国各地で実践研究を行っている。教育分野のResearch & Developmentを行っているInnovationPower Co.,LtdのCEO。2017年4月より柏市教育委員会とプログラミング教育に関するプロジェクトをスタート。市内すべての小学校で実施するプログラミング学習のカリキュラム作成やフォローアップを担当。2017年11月より一般社団法人CoderDojo Japan理事。大学では教育についてより専門的に学んでいる。
+  img: kiriemiyajima.jpg
 
 - name: りんどうまき
   site: http://maki-rindoh.blog.jp/
   position: <b>[グラフィックレコーダー]</b><br>「伝える」をデザインする　グラフィックレコーダー/イラストレーター
   description: グラレコや、まんがやイラストを使ったコンテンツにより、伝えたい想いや伝えるべき内容をより深く引き出し、伝えたい相手に届きやすい形にして伝えます。
+  img: rindoumaki.png
 
 
 - name: 松末 一希
   position: CoderDojo 尾張 メンター & 高等学校教員
   description: CoderDojo 尾張に2019年より参加。愛知県内の高校の教員として働く。今日はプライベートで参加中。
+  img: matsusue.jpg
 
 - name: 細谷 崇（ほそや たかし）
   position: <b>[司会]</b><br>CoderDojo西宮 チャンピオン / CoderDojo梅田 チャンピオン / DojoCon Japan 2016 実行委員長 / DojoCon Japan 2017 実行委員長 / 一般社団法人CoderDojo Japan 設立時社員 / NPO法人のためのIT支援事務所 ht 代表 / サイボウズ株式会社公認 kintone エバンジェリスト
+  img: takashihosoya.jpg

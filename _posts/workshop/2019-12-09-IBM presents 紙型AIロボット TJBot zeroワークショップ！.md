@@ -7,6 +7,7 @@ thumbnail: 06_tjbot_zero.jpg
 tags: セルフサービスワークショップ メンター向け ニンジャ向け
 speakers:
   - 加藤 典子
+  - 鈴木 秀和
 permalink:
 room: Mu Garden
 ---
