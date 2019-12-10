@@ -16,7 +16,9 @@ layout: default
   </div>
   <p class="post-time">{{page.time}}</p>
 {%endif%}
-{% if page.thumbnail %}<img src="{{site.url}}/img/post/{{page.thumbnail}}" alt="thumbnail" class="thumbnail">{% endif %}
+{% if page.thumbnail %}<img src="{{site.url}}/img/post/{{page.thumbnail}}" alt="thumbnail" class="thumbnail">{% elsif page.categories[0] == "news" %}
+<img src="{{site.url}}/img/post/thumbnail_news.png" alt="thumbnail" class="thumbnail">
+{% endif %}
 <div class='post-content'>
   {{ content }}
 </div>
