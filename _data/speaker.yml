@@ -137,25 +137,33 @@
   description: Nicola は CoderDojo のグローバルコミュニティマネージャー。ダブリン大学で英文学の学士・修士を取得。NPOやテクノロジーイベント、スタータップなどで活動を続ける。教育・テクノロジー・社会事業が交わる CoderDojo での仕事をすごく愛している。仕事以外では、演劇、映画、読書、ヨガが大好きで、ダブリンの Dogpatch Labs Dojo で同僚とのボランティアも参加している。
 
 - name: 安川 要平
-  position: <b>[進行]</b><br>CoderDojo Japan 代表理事
+  position: CoderDojo Japan 代表理事
   site: https://coderdojo.jp
   twitter: CoderDojoJapan
   facebook: https://facebook.com/coderdojo.jp
   img: ../staff/yoheiyasukawa.jpg
   description: 2012年に下北沢オープンソースCafeのメンバーと共にアジア初の CoderDojo を立ち上げ、当時から現在に到るまで CoderDojo コミュニティをより楽しくしていくためのコミットを続けています。
 
-- name: Katz Ueno
-  position: <b>[通訳]</b><br>DojoCon Japan 2019 実行委員長 / CoderDojo 尾張 チャンピオン
+- name: "進行: 安川 要平"
+  position: CoderDojo Japan 代表理事
+  site: https://coderdojo.jp
+  twitter: CoderDojoJapan
+  facebook: https://facebook.com/coderdojo.jp
+  img: ../staff/yoheiyasukawa.jpg
+  description: 2012年に下北沢オープンソースCafeのメンバーと共にアジア初の CoderDojo を立ち上げ、当時から現在に到るまで CoderDojo コミュニティをより楽しくしていくためのコミットを続けています。
+
+- name: "通訳: Katz Ueno"
+  position: DojoCon Japan 2019 実行委員長 / CoderDojo 尾張 チャンピオン
   site: https://coderdojoowari.org/
   twitter: katzueno
   img: ../staff/katzueno.jpg
   description: 2017年4月より、愛知県岩倉市で CoderDojo 尾張を立ち上げる。コンクリートファイブジャパン株式会社の Chief Communications Officer として、オープンソース CMS 「concrete5」の日本での普及活動を行っている。2児の父で、長女と一緒に Viscuit を楽しんでいる毎日。
 
-- name: 柴田 重臣
-  position: <b>[翻訳]</b><br>CoderDojo Mito
+- name: "翻訳: 柴田 重臣"
+  position: CoderDojo Mito
 
-- name: 横川 ヒロタカ
-  position: <b>[翻訳]</b><br>CoderDojo あざみ野
+- name: "翻訳: 横川 ヒロタカ"
+  position: CoderDojo あざみ野
   img: ../staff/hirotakayokokawa.jpg
 
 - name: 加藤 典子
