@@ -7,10 +7,10 @@ thumbnail: 05_workshop.png
 tags: ワークショップ メンター向け 要当日整理券
 speakers:
   - Nicola Lyons
-  - 安川 要平
-  - Katz Ueno
-  - 柴田 重臣
-  - 横川 ヒロタカ
+  - "進行: 安川 要平"
+  - "通訳: Katz Ueno"
+  - "翻訳: 柴田 重臣"
+  - "翻訳: 横川 ヒロタカ"
 permalink: /workshop/1/
 room: D204
 ---
