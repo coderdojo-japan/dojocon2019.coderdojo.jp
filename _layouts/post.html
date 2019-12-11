@@ -22,14 +22,18 @@ layout: default
 <div class='post-content'>
   {{ content }}
 </div>
+{% if page.categories[0] != "news" and page.speakers %}
 {% if page.categories[0] == "session" %}
 <h2>スピーカー</h2>
+{% elsif page.categories[0] == "workshop" %}
+<h2>講師・スタッフ</h2>
+{% endif %}
   <div class="speakers">
     {% for speaker in page.speakers %}
     {% assign speaker_data = site.data.speaker | where: "name", speaker %}
       <div class="speaker">
         {% for one_speaker in speaker_data %}
-        <img src="{{site.url}}/img/speaker/{{one_speaker.img}}" alt="{{one_speaker.name}}" class="speaker-img">
+        {% if one_speaker.img %}<img src="{{site.url}}/img/speaker/{{one_speaker.img}}" alt="{{one_speaker.name}}" class="speaker-img">{% endif %}
         <h3>{{one_speaker.name}}</h3>
         {% if one_speaker.position %}<p>{{ one_speaker.position }}</p>{% endif %}
         {% if one_speaker.site %}<a href="{{one_speaker.site}}" target="_blank" rel="nofollow" class="link"><i class="fas fa-globe"></i></a>{% endif %}

@@ -155,6 +155,17 @@ section {
       height: calc(((80vw / 1.5) - 2vw) * (400 / 600));
     }
   }
+  .article-event{
+      border-bottom: 2px solid #ddd;
+      border-radius: 0;
+      box-shadow: none;
+      .article-thumbnail {
+        display: none;
+      }
+  }
+  .article-news .article-title{
+    height: auto;
+  }
 }
 
 //手裏剣柄背景の設定
@@ -706,10 +717,6 @@ h2 {
   }
 }
 
-//タグ
-.tags {
-  text-align: center;
-}
 //ワークショップのタグ一覧
 .tag-workshop {
   background: linear-gradient(transparent 70%, $light-blue 70%);
