@@ -8,7 +8,7 @@ tags: コミュニティ
 speakers:
     - 安川 要平
 time:
-permalink:
+permalink: /session/13/
 ---
 
 2016年に公式日本法人『一般社団法人 CoderDojo Japan』を設立し、様々な取り組みを実施して来ました。

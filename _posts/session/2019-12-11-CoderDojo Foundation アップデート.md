@@ -9,7 +9,7 @@ speakers:
     - Nicola Lyons
     - "通訳: Katz Ueno"
 time:
-permalink:
+permalink: /session/12/
 ---
 
 CoderDojo Foundation から世界の CoderDojo ムーブメントの最新情報を届けていただきます。
