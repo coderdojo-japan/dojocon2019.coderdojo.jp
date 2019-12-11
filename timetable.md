@@ -2,6 +2,9 @@
 layout: post
 title: "タイムテーブル"
 ---
+<img src="{{site.url}}/img/timetable.png" alt="タイムテーブル" style="width: 100%;">
+
+<!--
   <div class="table">
     <h2 class="table-timehead">時間</h2>
     <input type="radio" id="radio-session" name="tab_item" checked>
@@ -9,7 +12,7 @@ title: "タイムテーブル"
     <input type="radio" id="radio-workshop" name="tab_item">
     <label for="radio-workshop"><h2 class="table-head">ワークショップ</h2></label>
 
-  <div class="table-column table-time">
+    <div class="table-column table-time">
     <ol>
       <li>10:00</li>
       <li>10:30</li>
@@ -29,8 +32,8 @@ title: "タイムテーブル"
       <li>17:30</li>
       <li>18:00</li>
     </ol>
-  </div>
-  <div class="table-column table-session table-content">
+    </div>
+    <div class="table-column table-session table-content">
     <ol>
       {% for session in site.data.sessions %}
       <li style="height: calc(({{session.etime}} - {{session.stime}}) * 8px - 20px - 8px); top: calc({{session.stime | minus: 600.0}} * 8px);">
@@ -44,8 +47,8 @@ title: "タイムテーブル"
       </li>
       {% endfor %}
     </ol>
-  </div>
-  <div class="table-column table-workshop table-content">
+    </div>
+    <div class="table-column table-workshop table-content">
     <ol>
       {% for workshop in site.data.workshops %}
       <li style="height: calc(({{workshop.etime}} - {{workshop.stime}}) * 8px - 20px - 8px); top: calc({{workshop.stime | minus: 600.0}} * 8px); left: calc({{workshop.column}} * (33.33% + 8px));">
@@ -59,5 +62,6 @@ title: "タイムテーブル"
       </li>
       {% endfor %}
     </ol>
+    </div>
   </div>
-  </div>
+-->
