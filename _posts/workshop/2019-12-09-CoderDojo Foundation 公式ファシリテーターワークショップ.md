@@ -11,7 +11,7 @@ speakers:
   - Katz Ueno
   - 柴田 重臣
   - 横川 ヒロタカ
-permalink:
+permalink: /workshop/1/
 room: D204
 ---
 ## 概要

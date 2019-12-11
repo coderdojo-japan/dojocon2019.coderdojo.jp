@@ -7,7 +7,7 @@ thumbnail: minnnanocoderdojo.png
 tags:
   - 対話・交流会
   - メンター向け
-permalink:
+permalink: /workshop/10/
 room: Shake 大型テレビ前
 speakers:
     - 利根川 裕太

@@ -5,7 +5,7 @@ date: 2019-12-09 10:00:03 +0900
 categories: workshop
 thumbnail: thumbnail_workshop.png
 tags: 対話・交流会
-permalink:
+permalink: /workshop/12/
 room: D204
 speakers:
   - 細谷 崇（ほそや たかし）
