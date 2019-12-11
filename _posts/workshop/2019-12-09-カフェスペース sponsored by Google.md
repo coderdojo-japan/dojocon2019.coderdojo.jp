@@ -5,7 +5,7 @@ date:   2019-12-09 10:00:02 +0900
 categories: workshop
 thumbnail: thumbnail_workshop.png
 tags: 休憩スペース
-permalink:
+permalink: /workshop/6/
 room: Shake カフェスペース
 speakers: 伴
 ---

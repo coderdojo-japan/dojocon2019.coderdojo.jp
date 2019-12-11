@@ -11,7 +11,7 @@ speakers:
   - "通訳: Katz Ueno"
   - "翻訳: 柴田 重臣"
   - "翻訳: 横川 ヒロタカ"
-permalink:
+permalink: /workshop/1/
 room: D204
 ---
 ## 概要

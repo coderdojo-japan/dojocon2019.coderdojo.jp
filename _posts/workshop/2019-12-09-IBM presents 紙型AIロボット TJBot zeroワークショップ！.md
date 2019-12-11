@@ -8,7 +8,7 @@ tags: セルフサービスワークショップ メンター向け ニンジャ
 speakers:
   - 加藤 典子
   - 鈴木 秀和
-permalink:
+permalink: /workshop/3/
 room: Mu Garden
 ---
 ## 概要
