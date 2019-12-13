@@ -161,14 +161,6 @@ section {
       height: calc(((80vw / 1.5) - 2vw) * (400 / 600));
     }
   }
-  .article-event{
-      border-bottom: 2px solid #ddd;
-      border-radius: 0;
-      box-shadow: none;
-      .article-thumbnail {
-        display: none;
-      }
-  }
   .article-news .article-title{
     height: auto;
   }
