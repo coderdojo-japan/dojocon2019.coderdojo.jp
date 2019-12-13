@@ -56,6 +56,10 @@ section {
 .flex{
   display: flex;
   flex-wrap: wrap;
+  @media screen and (max-width: 800px) {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
 }
 
 .article {
@@ -149,7 +153,9 @@ section {
 @media screen and (max-width: 800px) {
   .article {
     padding: 4vw;
-    margin: 6px 0;
+    flex: 0 0 120px;
+    margin: 6px 8px;
+    min-width: 240px;
     width: calc(100% - 8vw);
     .article-thumbnail {
       height: calc(((80vw / 1.5) - 2vw) * (400 / 600));
