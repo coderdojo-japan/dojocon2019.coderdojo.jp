@@ -6,7 +6,7 @@ categories: workshop
 thumbnail: thumbnail_workshop.png
 tags: 対話・交流会
 permalink: /workshop/12/
-room: D204
+room: セッション小会場
 speakers:
   - 細谷 崇（ほそや たかし）
   - 内田 和雄
@@ -25,3 +25,6 @@ speakers:
 なし
 ## 場所
 {{page.room}}
+
+## 時間
+15:00〜16:30
