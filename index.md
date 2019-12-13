@@ -76,7 +76,7 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
 <section id="news">
   <h2>NEWS</h2>
   <p class="caption">お知らせ</p>
-  <div class="flex">
+  <div class="flex x-scroll">
   {% for post in site.categories.news %}
     {% include articles.html %}
   {% endfor %}
@@ -89,7 +89,7 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
   <div class="img-section">
     <img src="{{site.url}}/img/workshop.jpg" alt="Workshop" loading="lazy"> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
   </div>
-  <div class="flex">
+  <div class="flex x-scroll">
   {% for post in site.categories.workshop %}
     {% include workshops.html %}
   {% endfor %}
@@ -102,7 +102,7 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
   <div class="img-section">
     <img src="{{site.url}}/img/session.jpg" alt="Session" loading="lazy"> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
   </div>
-  <div class="flex">
+  <div class="flex x-scroll">
   {% for post in site.categories.session %}
     {% include sessions.html %}
   {% endfor %}

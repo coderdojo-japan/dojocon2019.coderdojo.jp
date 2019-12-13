@@ -53,13 +53,15 @@ section {
 }
 
 //記事一覧
+.x-scroll{
+  @media screen and (max-width: 800px) {
+    overflow-x: scroll;
+    flex-wrap: nowrap !important;
+  }
+}
 .flex{
   display: flex;
   flex-wrap: wrap;
-  @media screen and (max-width: 800px) {
-    overflow-x: scroll;
-    flex-wrap: nowrap;
-  }
 }
 
 .article {
