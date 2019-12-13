@@ -47,7 +47,7 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
     </div>
     <div class="outline-one">
       <h3>時間</h3>
-      <p>10:30-17:30（開場10:00）※予定</p>
+      <p>10:30-17:00（開場10:00）※予定</p>
     </div>
     <div class="outline-one">
       <h3>場所</h3>
