@@ -10,7 +10,7 @@ copy: "- つぎのSTEP -"
   <h1>DojoCon Japan <br>2019</h1>
   <div class="top-theme"><img src="{{site.url}}/img/svg/right.svg" alt="Right" class="top-right"> つぎのSTEP</div>
   <p class="top-date">12.21<span>SAT</span></p>
-  <p class="top-venue">in<br class="ph"> 名城大学 ナゴヤドーム前キャンパス<br class="ph"> 社会連携ゾーンshake</p>
+  <p class="top-venue">in<br class="ph"> 名城大学 ナゴヤドーム前キャンパス<br class="ph"> 社会連携ゾーンshake / MU GARDEN TERRACE</p>
 
   <img src="{{site.url}}/img/ninja.png" alt="(´∀｀*)" class="top-ninja">
 </section>
@@ -51,7 +51,7 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
     </div>
     <div class="outline-one">
       <h3>場所</h3>
-      <p>名城大学 ナゴヤドーム前キャンパス社会連携ゾーンshake</p>
+      <p>名城大学 ナゴヤドーム前キャンパス 社会連携ゾーンshake / MU GARDEN TERRACE</p>
     </div>
     <div class="outline-one">
       <h3>参加費</h3>
@@ -67,7 +67,7 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
   <p class="caption">会場の場所</p>
   <iframe title="google map" class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3260.69697362165!2d136.9440337!3d35.1891045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003119bbc4c9fc5%3A0xd5c643a8df7fc59!2z5ZCN5Z-O5aSn5a2mIOODiuOCtOODpOODieODvOODoOWJjeOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sus!4v1568871387623!5m2!1sja!2sus" loading="lazy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
   <div class="text">
-    <h3>名城大学 ナゴヤドーム前キャンパス 社会連携ゾーンshake</h3>
+    <h3>名城大学 ナゴヤドーム前キャンパス 社会連携ゾーンshake / MU GARDEN TERRACE</h3>
     <p>愛知県名古屋市東区矢田南 4-102-9</p>
     <p>JR中央本線・名鉄瀬戸線「大曽根」駅下車 徒歩約10分。地下鉄名城線 「ナゴヤドーム前矢田」駅下車2番出口 徒歩約3分。ゆとりーとライン「ナゴヤドーム前矢田」駅から徒歩約5分</p>
   </div>
