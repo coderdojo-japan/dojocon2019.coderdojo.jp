@@ -13,9 +13,7 @@ permalink: /posts/10/
 ---
 
 ## パパふとらないでねー
-<div class="mx-auto" style="max-width:600px;">
-    <img src="{{site.url}}/img/post/contest_1.png" class="img-fluid" alt="パパふとらないでねー">
-</div>
+![パパふとらないでねー]({{site.url}}/img/post/contest_1.png)
 
 ### 作者
 川口 聡介 (CoderDojo名古屋)
@@ -27,9 +25,7 @@ permalink: /posts/10/
 ---
 
 ## らん♪RUNランニング
-<div class="mx-auto" style="max-width:600px;">
-    <img src="{{site.url}}/img/post/contest_2.png" class="img-fluid" alt="らん♪RUNランニング">
-</div>
+![らん♪RUNランニング]({{site.url}}/img/post/contest_2.png)
 
 ### 作者
 川口 明莉 (CoderDojo名古屋)
@@ -40,9 +36,7 @@ permalink: /posts/10/
 ---
 
 ## 未来の月面調査ロボット
-<div class="mx-auto" style="max-width:600px;">
-    <img src="{{site.url}}/img/post/contest_3.png" class="img-fluid" alt="未来の月面調査ロボット">
-</div>
+![未来の月面調査ロボット]({{site.url}}/img/post/contest_3.png)
 
 ### 作者
 古山 芽吹 (CoderDojo岐阜)
@@ -57,9 +51,7 @@ permalink: /posts/10/
 ---
 
 ## LOST
-<div class="mx-auto" style="max-width:600px;">
-    <img src="{{site.url}}/img/post/contest_4.png" class="img-fluid" alt="LOST">
-</div>
+![LOST]({{site.url}}/img/post/contest_4.png)
 
 ### 作者
 山﨑 帝虎 (CoderDojo赤羽)
@@ -70,9 +62,8 @@ permalink: /posts/10/
 ---
 
 ## 新感覚パズルゲーム コンビ!
-<div class="mx-auto" style="max-width:600px;">
-    <img src="{{site.url}}/img/post/contest_5.png" class="img-fluid" alt="LOST">
-</div>
+
+![LOST]({{site.url}}/img/post/contest_5.png)
 
 ### 作者
 飯干 功惺 (CoderDojo西宮・梅田)
@@ -87,9 +78,8 @@ permalink: /posts/10/
 ---
 
 ## AI Trash Can
-<div class="mx-auto" style="max-width:600px;">
-    <img src="{{site.url}}/img/post/contest_6.png" class="img-fluid" alt="AI Trash Can">
-</div>
+
+![AI Trash Can]({{site.url}}/img/post/contest_6.png)
 
 ### 作者
 小川 桃佳 (CoderDojo嘉手納)
@@ -99,9 +89,3 @@ permalink: /posts/10/
 苦労した点はゴミの判断をするところです。最初はカメラにかざしてゴミを判別しようとしていたけれど、人の洋服や背景で判別がうまく行かなかったので、カメラの前に置く方法にしました。
 
 ---
-
-<style scoped>
-img {
-  width:100%;
-}
-</style>

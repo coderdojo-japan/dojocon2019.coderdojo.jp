@@ -456,6 +456,12 @@ h2 {
 }
 .post-content {
   padding: 24px 0;
+  img{
+    display: block;
+    width: 100%;
+    margin: auto;
+    max-width: 600px;
+  }
 }
 .post-head {
   background-color: $main-color;
