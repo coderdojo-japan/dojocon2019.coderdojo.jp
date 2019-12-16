@@ -160,11 +160,17 @@
   description: 2017年4月より、愛知県岩倉市で CoderDojo 尾張を立ち上げる。コンクリートファイブジャパン株式会社の Chief Communications Officer として、オープンソース CMS 「concrete5」の日本での普及活動を行っている。2児の父で、長女と一緒に Viscuit を楽しんでいる毎日。
 
 - name: "翻訳: 柴田 重臣"
-  position: CoderDojo Mito
+  position: CoderDojo 水戸
+  site: https://coderdojo-mito.com/
+  twitter: shigeomix
+  img: ShigeomiShibata.jpg
+  description: CoderDojo 水戸メンター、最近ははぐれメタル級。今回リモートでも貢献できると思い、ひさしぶりに作業させていただきました。CoderDojo憲章の翻訳に参加して以来なので、最近の発展ぶりに驚いています。
 
 - name: "翻訳: 横川 裕隆"
   position: CoderDojo あざみ野 チャンピオン
   img: ../staff/hirotakayokokawa.jpg
+  facebook: https://www.facebook.com/yokokawa
+  description: 2018年1月から横浜周辺のDojoで修業し11月に横浜市青葉区でCoderDojoあざみ野を立ち上げました。coderdojo.comサイトの翻訳にも参加しています。
 
 - name: 加藤 典子
   position: IBM Developer Advocate
