@@ -722,7 +722,9 @@ h2 {
     height: calc(24px * 2 + 16px + 8px);
   }
 }
-
+.tags{
+  text-align: center;
+}
 //ワークショップのタグ一覧
 .tag-workshop {
   background: linear-gradient(transparent 70%, $light-blue 70%);
@@ -738,10 +740,9 @@ h2 {
 .tag-post {
   background-color: $light-gray;
   border-radius: 1em;
+  display: inline-block;
+  margin: 6px;
   padding: 4px 24px;
-  &:not(:last-child) {
-    margin-right: 12px;
-  }
 }
 
 //トップページのテキスト類
