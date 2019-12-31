@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Sans+JP:400,900|Roboto:400,900|M+PLUS+Rounded+1c:400,800&display=swap'); //Webフォント読み込み。
 
 $navbar: 60px;
-html{
+html {
   scroll-behavior: smooth;
 }
 //全体の設定。文字の設定が主である。
@@ -15,7 +15,9 @@ body {
   text-align: center;
   color: $brown;
 }
-p, a, h3{
+p,
+a,
+h3 {
   letter-spacing: 0.08em;
   line-height: 1.8em;
 }
@@ -53,13 +55,13 @@ section {
 }
 
 //記事一覧
-.x-scroll{
+.x-scroll {
   @media screen and (max-width: 800px) {
     overflow-x: scroll;
     flex-wrap: nowrap !important;
   }
 }
-.flex{
+.flex {
   display: flex;
   flex-wrap: wrap;
 }
@@ -98,9 +100,7 @@ section {
     height: calc(
       ((80vw / 2) - 4vw - 16px) * (400 / 600)
     ); //縦横比率が2:3になるように設定
-    max-height: calc(
-      ((800px / 2) - 40px - 16px) * (400 / 600)
-    )
+    max-height: calc(((800px / 2) - 40px - 16px) * (400 / 600));
   }
 }
 //セッションの記事一覧
@@ -115,27 +115,24 @@ section {
 //ニュースの記事一覧
 .article-news {
   padding: 2vw;
-  transition: .3s;
+  transition: 0.3s;
   width: calc(33% - 4vw - 16px); //1行に3記事入るようにする
   .article-thumbnail {
     height: calc(
       ((80vw / 3) - 4vw - 16px) * (400 / 600)
     ); //縦横比率が2:3になるように設定
-    max-height: calc(
-      ((800px / 3) - 40px - 16px) * (400 / 600)
-    )
+    max-height: calc(((800px / 3) - 40px - 16px) * (400 / 600));
   }
-  &:hover{
+  &:hover {
     color: $main-color;
-    transition: .3s;
+    transition: 0.3s;
   }
-  .article-title{
+  .article-title {
     height: 3.6em;
-
   }
 }
 @media screen and (max-width: 1150px) {
-  .article-news .article-title{
+  .article-news .article-title {
     height: 5.4em;
   }
 }
@@ -163,7 +160,7 @@ section {
       height: calc(((80vw / 1.5) - 2vw) * (400 / 600));
     }
   }
-  .article-news .article-title{
+  .article-news .article-title {
     height: auto;
   }
 }
@@ -186,18 +183,18 @@ section {
   padding: 8px 36px;
   text-align: center;
   text-decoration: none;
-  transition: .3s;
+  transition: 0.3s;
   width: 30%;
-  &:hover{
+  &:hover {
     box-shadow: none;
     opacity: 0.8;
     transform: translateY(12px);
-    transition: .3s;
+    transition: 0.3s;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .button{
+  .button {
     padding: 8px 0;
     width: 100%;
   }
@@ -282,14 +279,14 @@ h2 {
 }
 
 //申し込みボタン
-.menu-entry-button{
+.menu-entry-button {
   background-color: #fff;
   border-radius: 4px;
   color: #555;
   display: inline;
   font-weight: bold;
   line-height: 24px;
-  margin: calc(( 60px - 40px)/ 2);
+  margin: calc((60px - 40px) / 2);
   padding: 8px 36px;
   position: absolute;
   right: 10vw;
@@ -307,7 +304,7 @@ h2 {
   .fa-times {
     display: none;
   }
-  img{
+  img {
     height: 30px;
   }
 }
@@ -352,7 +349,7 @@ h2 {
 }
 
 @media screen and (max-width: 1100px) {
-  .menu-entry-button{
+  .menu-entry-button {
     background-color: $main-color;
     border-radius: 0;
     color: #fff;
@@ -381,7 +378,7 @@ h2 {
     display: block;
     position: static;
     text-align: center;
-    > li{
+    > li {
       line-height: 7vh;
       padding: 0;
     }
@@ -397,7 +394,7 @@ h2 {
   ~ .menu-hamburger .menu-bars {
     display: none;
   }
-  ~  .menu-hamburger .menu-close {
+  ~ .menu-hamburger .menu-close {
     display: block;
   }
 }
@@ -420,7 +417,7 @@ h2 {
   }
 }
 
-#page-top a{
+#page-top a {
   background-color: $light-blue;
   border-radius: 35px;
   bottom: 0;
@@ -429,17 +426,17 @@ h2 {
   line-height: 70px;
   height: 70px;
   margin: 4vw;
-  opacity: .6;
+  opacity: 0.6;
   position: fixed;
   right: 0;
-  transition: .3s;
+  transition: 0.3s;
   width: 70px;
-  &:hover{
+  &:hover {
     opacity: 1;
   }
 }
 
-.ph{
+.ph {
   display: none;
 }
 
@@ -450,13 +447,14 @@ h2 {
   h1 {
     text-align: center;
   }
-  .post-date, .post-time{
+  .post-date,
+  .post-time {
     text-align: center;
   }
 }
 .post-content {
   padding: 24px 0;
-  img{
+  img {
     display: block;
     width: 100%;
     margin: auto;
@@ -472,7 +470,7 @@ h2 {
     margin: 0;
   }
 }
-.post-title{
+.post-title {
   font-size: 1.6em;
 }
 
@@ -515,7 +513,7 @@ h2 {
 }
 
 //スピーカーの情報の配置
-.speaker{
+.speaker {
   margin-bottom: 48px;
 }
 .speaker-description {
@@ -563,14 +561,14 @@ h2 {
 .individual {
   text-align: center;
   list-style: none;
-  letter-spacing: .08em;
+  letter-spacing: 0.08em;
   padding: 0;
-  li{
+  li {
     display: inline-block;
   }
-  li:not(:last-child)::after{
-      content: ',';
-    }
+  li:not(:last-child)::after {
+    content: ',';
+  }
 }
 
 .sponsor-gold {
@@ -605,7 +603,7 @@ h2 {
   transition: 0.5s;
 }
 
-.staff-image{
+.staff-image {
   height: calc(16vw - 3vw);
   max-height: 170px;
   img {
@@ -625,7 +623,7 @@ h2 {
   .staff {
     width: calc(33% - 3vw);
   }
-  .staff-image{
+  .staff-image {
     height: calc(26vw - 3vw);
   }
 }
@@ -669,7 +667,7 @@ h2 {
     text-align: center;
   }
 }
-.table-content{
+.table-content {
   display: none;
   position: relative;
   width: calc(100% - 58px - 16px - 8px);
@@ -677,21 +675,21 @@ h2 {
     position: absolute;
   }
 }
-.table-session{
-  li{
+.table-session {
+  li {
     width: 100%;
   }
-  .session-tag{
+  .session-tag {
     background-color: #fff;
   }
 }
-.table-workshop{
-  li{
+.table-workshop {
+  li {
     width: calc(33% - 20px);
   }
 }
 .table-head {
-  width: calc((100% - 58px)/2 - 16px - 8px);
+  width: calc((100% - 58px) / 2 - 16px - 8px);
 }
 .table-time {
   clear: both;
@@ -707,22 +705,22 @@ h2 {
 }
 
 #radio-session:checked ~ .table-session,
-#radio-workshop:checked ~ .table-workshop{
+#radio-workshop:checked ~ .table-workshop {
   display: block;
 }
-.table input:checked + label h2{
+.table input:checked + label h2 {
   background-color: $light-blue;
   color: #fff;
 }
 @media screen and (max-width: 1000px) {
-  .table-head{
+  .table-head {
     width: calc((100% - 58px) - 16px - 8px);
   }
-  .table-timehead{
+  .table-timehead {
     height: calc(24px * 2 + 16px + 8px);
   }
 }
-.tags{
+.tags {
   text-align: center;
 }
 //ワークショップのタグ一覧
@@ -764,7 +762,7 @@ h2 {
   position: relative;
   text-align: center;
   width: 100%;
-  h1{
+  h1 {
     color: $red;
     font-family: 'Concert One';
     font-size: 8vh;
@@ -775,7 +773,7 @@ h2 {
     left: 0;
     z-index: -8;
   }
-  p{
+  p {
     margin: 0;
   }
 }
@@ -819,7 +817,7 @@ h2 {
   font-family: 'Concert One';
   font-size: 36px;
   line-height: 1.2em;
-  span{
+  span {
     font-size: 24px;
   }
 }
@@ -847,7 +845,7 @@ h2 {
   .text {
     width: 100%;
   }
-  .ph{
+  .ph {
     display: inline;
   }
 }
