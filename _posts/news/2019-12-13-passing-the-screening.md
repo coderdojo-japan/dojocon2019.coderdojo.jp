@@ -63,7 +63,7 @@ permalink: /posts/10/
 
 ## 新感覚パズルゲーム コンビ!
 
-![LOST]({{site.url}}/img/post/contest_5.png)
+![新感覚パズルゲーム コンビ!]({{site.url}}/img/post/contest_5.png)
 
 ### 作者
 飯干 功惺 (CoderDojo西宮・梅田)
