@@ -1,14 +1,33 @@
 ---
 layout: post
-title: "DojoCon Japan 2019プログラミングコンテスト結果"
-date: 2019-12-13 09:00:00 +09:00
-thumbnail: "contest_thumbnail.png"
+title: "Go Global! DojoCon Japan 2019 プログラミングコンテスト結果発表"
+date: 2020-01-06 20:00:00 +09:00
+thumbnail: "contest.jpg"
 categories: news
-description: "「ソニックガーデン presents Go Global! DojoCon Japan 2019 プログラミングコンテスト」の最優秀賞ならびに一次審査における審査員のコメントを紹介します。"
+description: "「ソニックガーデン presents Go Global! DojoCon Japan 2019 プログラミングコンテスト」の最優秀賞の発表です！"
 permalink: /posts/11/
 ---
 
-「ソニックガーデン presents Go Global! DojoCon Japan 2019 プログラミングコンテスト」の最優秀賞ならびに一次審査における審査員のコメントを紹介します。
+「ソニックガーデン presents Go Global! DojoCon Japan 2019 プログラミングコンテスト」の最優秀賞の発表です！
+
+---
+
+## 最優秀賞
+最優秀賞は、CoderDojo嘉手納の小川 桃佳さんの作品「AI Trash Can」とCoderDojo名古屋のニンジャ、川口 明莉さんの作品「らん♪RUNランニング」に決まりました！
+
+「AI Trash Can」の作者、小川 桃佳さん
+![小川 桃佳さん]({{site.url}}/img/post/contest_winner01.jpg)
+
+「らん♪RUNランニング」の作者、川口 明莉さん
+![川口 明莉さん]({{site.url}}/img/post/contest_winner02.jpg)
+
+お二人にはそれぞれ、2020年6月にアイルランドのダブリンで開催される"[Coolest Project International](https://coolestprojects.org/international/)"に参加するための交通費、宿泊費20万円分がプレゼントされます。
+
+"[Coolest Project International](https://coolestprojects.org/international/)"には、全世界のニンジャが参加します（2019年は15か国から680名以上のニンジャが参加しました）、ぜひ海外の友達を作って、交流を深めてきてください。
+
+なお、「ソニックガーデン presents Go Global! DojoCon Japan 2019 プログラミングコンテスト」は"[Coolest Project International](https://coolestprojects.org/international/)"の予選ではありません。最優秀賞でなくても参加できますので、ひとりでも多くのニンジャが世界に仲間を作ってきて欲しいと思います。
+
+あらためて一次審査通過作品の紹介と各作品への一次審査時の審査員のコメントを紹介します。
 
 ---
 
@@ -24,12 +43,12 @@ permalink: /posts/11/
 
 ### 審査員コメント
 - 誰のためなのかがはっきりしていて良いですね。手書きのイラストが多く使われていて、こだわりを感じられました。冷蔵庫をあけしめすることで画面が表示されたり、メッセージが時間によって違うなど、リアルの世界とつながっている点に可能性を感じられます。誰かの「次のステップ」を応援する、というアイデアが素晴らしいと考えました。
-- れいぞうこのとびらを開けるたびに出てくるアニメーションがとても楽しいです。アニメーションを見たくて思わずなんどもれいぞうこに手を出して太ってしまいそうです（笑）朝昼夜にあわせて、食べた方がいいのか食べすぎない方がいいのか、出てくるアニメが変わるのもよくかんがえられていますね。さかなはからだにいいよ、おやすみのひは、うんどうをするといいよ、とネコちゃんのキャラクターがお話ししてくれるのでなんだかがんばれそうですo(^o^)o  
+- 冷蔵庫のとびらを開けるたびに出てくるアニメーションがとても楽しいです。アニメーションを見たくて思わずなんども冷蔵庫に手を出して太ってしまいそうです（笑）朝昼夜にあわせて、食べた方がいいのか食べすぎない方がいいのか、出てくるアニメが変わるのもよくかんがえられていますね。さかなはからだにいいよ、おやすみのひは、うんどうをするといいよ、とネコちゃんのキャラクターがお話ししてくれるのでなんだかがんばれそうですo(^o^)o  
 パパのけんこうを良くするためのせいかつの「つぎのステップ」をおてつだいしたいという気もちにあふれた作品に感じました。micro:bitビットニャー♪
 
 ---
 
-## らん♪RUNランニング
+## らん♪RUNランニング　★最優秀賞受賞作品★
 ![らん♪RUNランニング]({{site.url}}/img/post/contest_2.png)
 
 ### 作者
@@ -97,7 +116,7 @@ permalink: /posts/11/
 
 ---
 
-## AI Trash Can
+## AI Trash Can　★最優秀賞受賞作品★
 
 ![AI Trash Can]({{site.url}}/img/post/contest_6.png)
 
