@@ -23,7 +23,7 @@ permalink: /posts/11/
 
 お二人にはそれぞれ、2020年6月にアイルランドのダブリンで開催される"[Coolest Projects International](https://coolestprojects.org/international/)"に参加するための交通費、宿泊費20万円分がプレゼントされます。
 
-"[Coolest Projects International](https://coolestprojects.org/international/)"には、全世界のニンジャが参加します（2019年は15か国から680名以上のニンジャが参加しました）、ぜひ海外の友達を作って、交流を深めてきてください。
+"[Coolest Projects International](https://coolestprojects.org/international/)"には、全世界のニンジャが参加します（2019年は15か国から680名以上のニンジャが参加しました）。ぜひ海外の友達を作って、交流を深めてきてください。
 
 なお、「ソニックガーデン presents Go Global! DojoCon Japan 2019 プログラミングコンテスト」は"[Coolest Projects International](https://coolestprojects.org/international/)"の予選ではありません。最優秀賞でなくても参加できますので、ひとりでも多くのニンジャが世界に仲間を作ってきて欲しいと思います。
 
