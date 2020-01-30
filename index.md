@@ -130,7 +130,7 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
   <div class="sponsors-rank">
     {% for sponsor in site.data.sponsors.gold %}
     <a href="{{sponsor.site}}" target="_blank" rel="noopener">
-    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-gold sponsors-rank-img">
+    {% if sponsor.img %}<img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-gold sponsors-rank-img">{% else %}<h2 style="text-align:center; font-size: 24px;">{{sponsor.name}}</h2>{% endif %}
     </a>
     {% endfor %}
   </div>
