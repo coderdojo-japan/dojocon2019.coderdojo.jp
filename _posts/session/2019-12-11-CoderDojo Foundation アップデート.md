@@ -13,3 +13,7 @@ permalink: /session/12/
 ---
 
 CoderDojo Foundation から世界の CoderDojo ムーブメントの最新情報を届けていただきます。
+
+## 発表資料
+
+[CoderDojo Foundation アップデート](https://speakerdeck.com/nicolalyons/coderdojo-2019-review-at-dojoconjapan-2019)
