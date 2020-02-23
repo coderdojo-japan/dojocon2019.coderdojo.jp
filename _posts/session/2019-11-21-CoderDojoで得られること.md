@@ -12,3 +12,7 @@ permalink: /session/1/
 ---
 
 CoderDojo Anjo のチャンピオンとして２年間で主催・参加したイベントを紹介します。その中からCoderDojoを通じて得られたことを考えてみます。
+
+## 発表資料
+
+[CoderDojoで得られること]({{site.url}}/pdf/session/CoderDojoで得られること.pdf)

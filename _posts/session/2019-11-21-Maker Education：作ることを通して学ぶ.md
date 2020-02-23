@@ -12,3 +12,7 @@ permalink: /session/3/
 ---
 
 2017年に日本にやってきたmicro:bit中心に、動くものを作ることを通した学び（Maker Education）を推進する活動をしています。本講演ではMaker Educationについて、私たちの実践例だけでなく海外の事例も含めて紹介します。
+
+## 発表資料
+
+[Maker Education：作ることを通して学ぶ](https://www.slideshare.net/MKnkgw/dojo-con2019-202001)

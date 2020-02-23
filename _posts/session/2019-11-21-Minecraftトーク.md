@@ -17,3 +17,7 @@ permalink: /session/4/
 ---
 
 Minecraft愛に溢れた方たちに登壇いただき、それぞれのDojoでの活動内容やMinecraftに関して他のDojoに伝えたいこと（アドバイス、気づき）を語っていただきます。今後のDojoの活動内容の幅を広げるにMinecraftに興味がある方、とてもオススメです。
+
+## 発表資料
+
+[Minecraftトーク](https://speakerdeck.com/dojoconjapan/minecraft-talk-dojocon-japan-2019)
