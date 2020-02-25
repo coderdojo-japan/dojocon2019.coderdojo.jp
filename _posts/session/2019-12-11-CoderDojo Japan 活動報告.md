@@ -16,4 +16,4 @@ permalink: /session/13/
 本セッションでは CoderDojo Japan がこの１年で行った活動実績をお伝えすると共に、次の１年に向けて CoderDojo コミュニティをもっと楽しい場にしていくためのアイデアを皆さんと議論・共有したいなと考えています。
 
 ## 発表資料
-[CoderDojoで得られること](https://speakerdeck.com/coderdojojapan/coderdojo-japan-in-2019)
+[CoderDojo Japan 活動報告](https://speakerdeck.com/coderdojojapan/coderdojo-japan-in-2019)
