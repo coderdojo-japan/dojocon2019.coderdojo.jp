@@ -15,4 +15,4 @@ permalink: /session/10/
 
 ## 発表資料
 
-[学生プロジェクト「CoderDojo豊橋」と小中高大連携]({{site.url}}/pdf/session/学生プロジェクト「CoderDojo豊橋」と小中高大連携.pdf)
+[学生プロジェクト「CoderDojo豊橋」と小中高大連携]({{site.url}}/pdf/session/dojocon-japan-2019-imai.pdf)
