@@ -9,6 +9,12 @@ task test: [:build] do
     check_favicon:    true,
     check_html:       true,
     disable_external: true,
+
+    # Use REGEX to ignore URLs in a domain
+    ignore_urls: [
+      %r{^http://},
+    ],
+
     # NOTE: You can ignore files or URLs as follows
     #file_ignore: [
     #  /node_modules/,
